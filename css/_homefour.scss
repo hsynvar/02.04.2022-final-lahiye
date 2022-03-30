@@ -1,0 +1,1711 @@
+@import '_variable';
+// @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.holidayhome{
+    width: 95%;
+    margin: auto;
+    height: 110vh;
+    background-color: #FAF9F7;
+    .bigbox{
+        position: relative;
+        .boxtext{
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            h3{
+                font-size: 23px ;
+            }
+            h1{
+                font-size: 5rem;
+                margin: 20px 0;
+            }
+            span{
+                display: block;
+                color: $lightgray;
+                font-size: 20px;
+            }
+            a{
+                text-decoration: none;
+                display: inline-block;
+                margin: 2rem 25px 0 0;
+                text-align: center;
+                i{
+                    margin-left: 5px;
+                }
+            }
+            .men{
+                padding: 20px 4rem;
+                background-color: $black;
+                color: $white;
+                transition: 0.4s;
+                &:hover{
+                    background-color: $green;
+                }
+            }
+            .woman{
+                border-bottom: 1px solid $black;
+                color: $black;
+                transition: 0.4s;
+
+                &:hover{
+                    color: $green;
+                }
+            }
+
+        }
+        .imgbox{
+            text-align: right;
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 50%;
+            left: 4%;
+
+            &:hover{
+                i{
+                    background-color: $green;
+
+                    color: $white;
+                }
+            }
+            i{
+                transition: 0.4s;
+                padding: 18px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 50%;
+            right: 4%;
+            &:hover{
+                i{
+                    background-color: $green;
+
+                    color: $white;
+                }
+            }
+            i{
+                padding: 18px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+            }
+        }
+    }
+}
+// holidsayhome end 
+// -------- end
+.icons{
+    width: 100%;
+    height: 30vh;
+    .bottext{
+        width: 90%;
+        margin: 3rem auto;
+        .boxi{
+            position: relative;
+            .iconbox{
+                position: absolute;
+                top: 30%;
+                left: 0%;
+                i{
+                    font-size: 25px;
+                }
+            }
+            .textbox{
+                margin-left: 3rem;
+                h2{
+                    font-size: 24px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+// icons end 
+// -------- 
+.shopcateg{
+    width: 100%;
+    height: 100vh;
+    .bigshop{
+        width: 95%;
+        margin: auto;
+        position: relative;
+        padding: 20px;
+        .text{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+            }
+        }
+        .allimgs{
+            width: 100%;
+            .boximg{
+                position: relative;
+                .textimg{
+                    position: absolute;
+                    bottom: 4%;
+                    left: 5%;
+                    a{
+                        text-decoration: none;
+                        color: $white;
+                        font-size: 26px;
+                        i{
+                            padding: 13px;
+                            background-color: $white;
+                            color: $black;
+                            border-radius: 20px;
+                            font-size: 12px;
+                            margin-left: 9rem;
+                            transition: 0.9s;
+                            &:hover{
+                                background-color: $black;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+            .boximgkid{
+                position: relative;
+                .textimg{
+                    position: absolute;
+                    bottom: 4%;
+                    left: 5%;
+                    a{
+                        text-decoration: none;
+                        color: $white;
+                        font-size: 26px;
+                        i{
+                            padding: 13px;
+                            background-color: $white;
+                            color: $black;
+                            border-radius: 20px;
+                            font-size: 12px;
+                            margin-left: 10rem;
+                            transition: 0.9s;
+                            &:hover{
+                                background-color: $black;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .leftarrow{
+            position: absolute;
+            bottom: 40%;
+            left: 0%;
+            i{
+                padding: 18px;
+                border-radius: 30px;
+                background-color: $white;
+                transition: 0.4s; 
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }  
+            }
+        }
+        .rightarrow{
+            position: absolute;
+            bottom: 40%;
+            right: 0%;
+            i{
+                padding: 18px;
+                border-radius: 30px;
+                background-color: $white;
+                border: 1px solid rgba(128, 128, 128, 0.26);
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }  
+            }
+        }
+    }
+}
+// shopcateg end 
+// ------ 
+// newarriwals start 
+.newarriwals{
+ width: 100%;
+ height: 160vh;
+    .allbox{
+        width: 80%;
+        margin: auto;
+        .textbox{
+                width: 42%;
+                margin: auto;
+                text-align: center;
+                h1{
+                    font-size: 3.5rem;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    margin-left: 3rem;
+                    li{
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            margin-left: 40px;
+                            color: $lightgray;
+                            font-size: 19px;
+                            transition: 0.2s;
+                            &:hover{
+                                border-bottom: 3px solid $black;
+                                padding-bottom: 3px;
+                                color: $black;
+                            }
+                        }
+                        .all{
+                            color: $black;
+                            border-bottom: 3px solid $black;
+                            padding: 2px;
+                        }
+                    }
+                }  
+        }
+        // textbox end 
+        .shopbox{
+            .shopbigbox{
+                margin-top: 20px;
+                overflow: hidden;
+                border:  1px solid rgba(128, 128, 128, 0.144);
+                .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 11%;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           margin:  5px 2px ;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                               
+                           }
+                        }
+                        .eye{
+                            padding: 8px;
+                            background-color: $white;
+                        }
+                        .heartbox{
+                            padding: 8px;
+                            background-color: $white;
+                        }
+                        .shopping{
+                            padding: 8px;
+                            background-color: $white;
+                        }
+                        .refresh{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+            //  buy end 
+            .text{
+                padding: 25px;
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h6{
+                    font-size: 14px;
+                    font-weight: 400;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    color: $gray;
+                    font-weight: 300;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 14px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                        color: $green;
+                    }
+                }
+            }
+         }
+        }
+        .shopall{
+            width: 25%;
+            margin: auto;
+            a{
+                text-align: center;
+                display: block;
+                margin-top: 3rem;
+                text-decoration: none;
+                background-color: $black;
+                color: $white;
+                padding: 15px;
+                font-size: 18px;
+                transition: 0.4s;
+                i{
+                    margin-left: 10px;
+                }
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+        .shopnow{
+            width: 25%;
+            margin: auto;
+            a{
+                text-align: center;
+                display: block;
+                margin-top: 3rem;
+                text-decoration: none;
+                background-color: $black;
+                color: $white;
+                padding: 15px;
+                font-size: 18px;
+                transition: 0.4s;
+                i{
+                    margin-left: 10px;
+                }
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}
+// newarriwals end 
+// ------------- 
+.vacation{
+    width: 100%;
+    height: 150vh;
+    .topbox{
+        .rightbox{
+            margin: 5rem 0 0 -6rem;
+            h1{
+                font-size: 3rem;
+            }
+            span{
+                display: block;
+                margin: 20px 0;
+            }
+            a{
+                text-decoration: none;
+                display: inline-block;
+                color: $black;
+                font-size: 17px;
+                border-bottom: 1px solid $black;
+                transition: 0.4s; 
+                &:hover{
+                    color: $green;
+                }
+            }
+        }
+    }
+    // topbox end 
+    .downbox{
+        margin-top: 3rem;
+        .boxright{
+            margin-top: 9rem;
+            h1{
+                font-size: 3rem;
+            }
+            span{
+                display: block;
+                margin: 20px 0;
+            }
+            a{
+                text-decoration: none;
+                display: inline-block;
+                color: $black;
+                font-size: 17px;
+                border-bottom: 1px solid $black;
+                transition: 0.4s; 
+                &:hover{
+                    color: $green;
+                }
+            }
+        }
+        .imgbox{
+        }
+        .boxrightrespons{
+            h1{
+                font-size: 3rem;
+            }
+            span{
+                display: block;
+                margin: 20px 0;
+            }
+            a{
+                text-decoration: none;
+                display: inline-block;
+                color: $black;
+                font-size: 17px;
+                border-bottom: 1px solid $black;
+                transition: 0.4s; 
+                &:hover{
+                    color: $green;
+                }
+            }
+
+        }
+    }
+    // downbox end 
+}
+// vacation end 
+// -------- 
+.foryoupic{
+    width: 100%;
+    height: 100vh;
+    .bigpicks{
+        padding: 0 4rem;
+        width: 100%;
+        position: relative;
+        .textbox{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            h1{
+                font-weight: 300;
+                font-size: 2rem;
+            }
+        }
+        .pickbox{
+            height: 55vh;
+            margin-top: 20px;
+            overflow: hidden;
+            border:  1px solid rgba(128, 128, 128, 0.144);
+            .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 18%;
+                        transform: translateY(10px); 
+                        transition: 0.4s;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           margin-left: 3px;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .heartbox{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .shopping{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .refresh{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+             .text{
+                padding: 25px;
+                p{
+                    margin-top: 10px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    font-weight: 300;
+
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    color: $gray;
+                   font-weight: 300;
+
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                        color: $green;
+                    }
+                }
+            }
+            &:hover{
+                .hovertext{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+        .pickboxone{
+            height: 55vh;
+            margin-top: 20px;
+            overflow: hidden;
+            border:  1px solid rgba(128, 128, 128, 0.144);
+            .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 18%;
+                        transform: translateY(10px); 
+                        transition: 0.4s;
+                        a{
+                            display: inline-block;
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           margin-left: 3px;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .heartbox{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .shopping{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .refresh{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+             .text{
+                padding: 25px;
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h6{
+                    font-size: 12px;
+                    transition: 0.4s;
+                    font-weight: 300;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    color: $gray;
+                   font-weight: 300;
+
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                        color: $green;
+                    }
+                }
+            }
+            &:hover{
+                .hovertext{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 50%;
+            left: 0%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 50%;
+            right: 0%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+            transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+// foryoupic end 
+// ------ 
+// kidsfashion start 
+.kidsfashion{
+    width: 100%;
+    height: 100vh;
+    .bigbox{
+        width: 95%;
+        margin: auto;
+        .boxleft{
+            position: relative;
+            height: 100%;
+            background-image: url(https://demo.themewinter.com/wp/bascart/fashion/wp-content/uploads/sites/8/2022/01/up_to_off_shape.png);
+            background-color: #769881;
+            background-position: center;
+            background-repeat:  no-repeat;
+            background-size: contain;
+            .textbox{
+                position: absolute;
+                top: 18%;
+                left: 28%;
+                width: 55%;
+                margin:  auto;
+                color: $white;
+                h5{
+                    font-weight: 300;
+                    font-size: 26px;
+                }
+                h1{
+                    margin: 20px 0;
+                    font-size: 3.5rem;
+                }
+                a{
+                    margin-top: 2rem;
+                    text-decoration: none;
+                    padding: 15px 0;
+                    width: 55%;
+                    text-align: center;
+                    display: inline-block;
+                    background-color: $black;
+                    color: $white;
+                    font-size: 14px;
+                    transition: 0.6s;
+                    &:hover{
+                        background-color: $white;
+                        color: $black;
+                    }
+                }
+            }
+        }
+        .boxright{
+            margin-left: -1.5rem;
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 20%;
+            left: 0%;
+            i{
+                padding: 18px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+                background-color: $white;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 20%;
+            right: 0%;
+            i{
+                padding: 18px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                background-color: $white;
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+// kidsfashion end 
+// ------ 
+// bybrand start 
+.bybrand{
+    width: 100%;
+    height: 50vh;
+    .bigbox{
+        position: relative;
+        h1{
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+        .allbrands{
+            margin-left: 7rem;
+            .box{
+                border:  0.5px solid rgba(128, 128, 128, 0.473);
+                text-align: center;
+                height: 15vh;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin-left:  35px;
+                transition: 0.6s;
+                &:hover{
+                    transform: scale(1.08);
+                    border: none;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                }
+    
+                img{
+                    width: 78px ;
+                    height: 22px;
+    
+                }
+            }
+            .box1{
+                border:  0.5px solid rgba(128, 128, 128, 0.473);
+                text-align: center;
+                height: 15vh;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin-left:  35px;
+                transition: 0.6s;
+                &:hover{
+                    transform: scale(1.08);
+                    border: none;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                }
+                img{
+                    width: 78px ;
+                    height: 22px;
+    
+                }
+            }
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 20%;
+            left: 3%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 20%;
+            right: 5%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+            transition: 0.4s;
+            }
+            &:hover{
+                i{
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+// bybrand end 
+// ----- 
+.bascard{
+    width: 100%;
+    height: 60vh;
+    .newsbas{
+        width: 100%;
+        text-align: center;
+        height: 50vh;
+        background-color: #f9f9f9;
+        .toptext{
+            padding-top: 3rem;
+            text-align: center;
+            h1{
+                margin-top: 3rem;
+                margin-bottom: 20px;
+            }
+        }
+        input{
+            margin-top: 35px;
+            width: 45%;
+            padding: 20px 15px ;
+            border: 0.5px solid rgba(128, 128, 128, 0.452); 
+        }
+        a{
+            margin-left: 5px;
+            text-decoration: none;
+            padding: 20px 35px;
+            display: inline-block;
+            background-color: $black ;
+            color: $white;
+            transition: 0.5s ease;
+            font-weight: 300;
+            i{
+                margin-left: 5px;
+            }
+            &:hover{
+                background-color: $green;
+            }
+        }
+    }
+}
+// ---- 
+// gift start 
+
+.gift{
+    width: 100%;
+    height: 100vh;
+    margin-top: 3rem;
+    .bigbox{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        .boxtext{
+            text-align: center;
+            padding-top: 5rem;
+            h2{
+                margin: 20px 0;
+                font-size: 3rem;
+            }
+          
+            span{
+                display: block;
+                margin-bottom: 20px;
+            }
+            a{
+                display: block;
+                width: 70%;
+                margin: auto;
+                text-decoration: none;
+                padding: 15px 25px;
+                background-color: $black;
+                color: $white;
+                transition: 0.4s;
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// RESPONSIVE START 
+// telefon versiya 
+
+@media (max-width: 576px){
+    .holidayhome{
+        width: 100%;
+        height: 150vh;
+        .bigbox{
+            position: relative;
+            .boxtext{
+                position: absolute;
+                top: 110%;
+                left: 2%;
+                h3{
+                    font-size: 16px;
+                }
+                h1{
+                    font-size: 35px;
+                }
+                span{
+                    font-size: 18px;
+                }
+                a{
+                    width: 35%;
+                    display: block;
+                    margin: auto;
+                }
+                .men{
+                    margin-top: 10px;
+                    display: block;
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+                .woman{
+                    margin-top: 15px;
+                }
+            }
+            .arrowleft{
+                position: absolute;
+                bottom: 20%;
+            }
+            .arrowright{
+                position: absolute;
+                bottom: 20%;
+            }
+        }
+    }
+    // holidayhome end 
+    // ----- 
+    .icons{
+        margin-left: 10px;
+        .bottext{
+            margin-top: 3rem;
+            width: 100%;
+          .boxi{
+              margin-top: 15px;
+          }   
+        }
+    }
+    // icons end 
+    // ------ 
+    // shopcateg start .
+    .shopcateg{
+        width: 100%;
+        height: 120vh;
+        .bigshop{
+            margin-top: 4rem;
+            .text{
+                width: 80%;
+            }
+            .allimgs{
+                .boximg{
+                    display: none;
+                }
+                .boximgkid{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                    .textimg{
+                        a{
+                            i{
+                                margin-left: 23rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .leftarrow{
+                position: absolute;
+                left: 6%;
+                i{
+                    padding: 14px;
+
+                }
+            }
+            .rightarrow{
+                position: absolute;
+                right: 6%;
+                i{
+                    padding: 12px ;
+                }
+            }
+        }
+    }
+    // shopcateg end 
+    // ------ 
+    // newarrivals start 
+    .newarriwals{
+        width: 100%;
+        height: 780vh;
+        .allbox{
+            width: 100%;
+            .textbox{
+                width: 80%;
+                h1{
+                    font-size: 2rem;
+                }
+                ul{
+                    margin-left: 2.5rem;
+                    li{
+                        a{
+                            margin-left: 30px;
+
+                        }
+                    }
+                }
+            }
+            .shopbox{
+                .shopbigbox{
+                    border: none;
+                    .buy{
+                        .hovertext{
+                            position: absolute;
+                            left: 35%;
+                        }
+                    }
+                    .text{
+                        text-align: left;
+                        padding: 5px;
+                    }
+                }
+            }
+            .shopnow{
+                width: 50%;
+            }
+        }
+    }
+    // newarriwals end 
+    // ------- -----
+    .vacation{
+        height: 200vh;
+        .topbox{
+            margin-top: 4rem;
+            .imgbox{
+                margin-bottom: 2rem;
+            }
+            .rightbox{
+                margin: 0;
+            }
+        }
+        .downbox{
+            .boxright{
+                display: none;
+            }
+            .boxrightrespons{
+                margin-top: 2rem;
+            }
+        }
+
+    }
+    // vacation end 
+    .foryoupic{ 
+        .bigpicks{
+            .textbox{
+                width: 100%;
+            }
+            .pickbox{
+                display: none;
+            }
+            .pickboxone{
+            height: 40vh;
+                .buy{
+                    .hovertext{
+                        left: 4%;
+                    }
+                }
+            }
+            .arrowleft{
+                left: 6%;
+            }
+            .arrowright{
+                right: 6%;
+            } 
+        }    
+    }
+    // foryoupic end 
+    // -------
+    // kidsfashion start 
+    .kidsfashion{
+        width: 100%;
+        height: 100vh;
+        .bigbox{
+            position: relative;
+            .col-rev{
+                flex-direction: column-reverse;
+                .boxleft{
+                    width: 100%;
+                    position: absolute;
+                    top: 80%;
+                    height: 80%;
+                    .textbox{
+                        position: absolute;
+                        left: 20% ;
+                        text-align: center;
+                        h1{
+                            font-size: 12px;
+                        }
+                        a{
+                            display: block;
+                            margin: 2rem auto ;
+                        }
+                    }
+                }
+                .boxright{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    // kidsfashion end 
+    // ----- 
+    .bybrand{
+        .bigbox{
+            .allbrands{
+                .box{
+                    display: none;
+                }
+                .box1{
+                    margin: auto;
+                }
+            }
+        }
+    }
+    // bybrand end 
+    // ------ 
+    .bascard{
+        .newsbas{
+            input{
+                width: 90%;
+                display: inline-block;
+    
+            }
+            a{
+                margin-top: 20px;
+                display: inline-block;
+                width: 90%;
+            }
+            
+        }
+    }
+    // --- 
+    .gift{
+        width: 100%;
+        height: 180vh;
+        .bigbox{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            .boxtext{
+                height: 40vh;
+                padding-top: 10px;
+                h2{
+                    font-size: 2rem;
+                }
+                a{
+                    width: 35%;
+
+                }
+
+            }
+
+        }
+    }
+}
+
+
+
+
+@media (min-width: 786px) {
+    .vacation{
+        .downbox{ 
+            .boxright{
+                margin-top: 3rem;
+            }
+            .boxrightrespons {
+                display: none;
+            }
+        }
+    }
+    // ------ 
+    .foryoupic{
+        .bigpicks{
+            .responsbox{
+                display: none;
+            }
+        }
+    }
+    // ----- 
+    .kidsfashion{
+        .bigbox{
+            .arrowleft{
+                display: none;
+            }
+            .arrowright{
+                display: none;
+            }
+        }
+    }
+    // ----- 
+}
+
+// planshet 
+@media (min-width: 576px) and ( max-width: 768px){
+    .holidayhome{
+        width: 100%;
+        height: 150vh;
+        .bigbox{
+            position: relative;
+            .boxtext{
+                position: absolute;
+                top: 110%;
+                left: 2%;
+                h3{
+                    font-size: 16px;
+                }
+                h1{
+                    font-size: 35px;
+                }
+                span{
+                    font-size: 18px;
+                }
+                a{
+                    width: 35%;
+                    display: block;
+                    margin: auto;
+                }
+                .men{
+                    margin-top: 10px;
+                    display: block;
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+                .woman{
+                    margin-top: 15px;
+                }
+            }
+            .imgbox{
+                margin-right: 4rem;
+            }
+            .arrowleft{
+                position: absolute;
+                bottom: 20%;
+            }
+            .arrowright{
+                position: absolute;
+                bottom: 20%;
+            }
+        }
+    }
+    // ----- 
+    .shopcateg{
+        width: 100%;
+        height: 150vh;
+        .bigshop{
+            margin-top: 4rem;
+            .text{
+                width: 80%;
+            }
+            .allimgs{
+                .boximg{
+                    display: none;
+                }
+                .boximgkid{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                    .textimg{
+                        a{
+                            i{
+                                margin-left: 23rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .leftarrow{
+                position: absolute;
+                left: 6%;
+                i{
+                    padding: 14px;
+
+                }
+            }
+            .rightarrow{
+                position: absolute;
+                right: 6%;
+                i{
+                    padding: 12px ;
+                }
+            }
+        }
+    }
+    // ------ 
+    .newarriwals{
+        width: 100%;
+        height: 750vh;
+        .allbox{
+            width: 100%;
+            .textbox{
+                width: 80%;
+                h1{
+                    font-size: 2rem;
+                }
+                ul{
+                    margin-left: 2.5rem;
+                    li{
+                        a{
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+            .shopbox{
+                .shopbigbox{
+                    border: none;
+                    .buy{
+                        .hovertext{
+                            position: absolute;
+                            left: 35%;
+                        }
+                    }
+                    .text{
+                        text-align: left;
+                        padding: 5px;
+                    }
+                }
+            }
+            .shopnow{
+                width: 50%;
+            }
+        }
+    }
+    // ------ 
+    .vacation{
+        width: 100%;
+        height: 200vh;
+        .topbox{
+            margin-top: 4rem;
+            .imgbox{
+                margin-bottom: 2rem;
+            }
+            .rightbox{
+                margin: 0;
+            }
+        }
+        .downbox{
+            .boxright{
+                display: none;
+            }
+            .boxrightrespons{
+                margin-top: 2rem;
+            }
+        }
+    }
+    // ----- 
+    .foryoupic{ 
+        width: 100%;
+        .bigpicks{
+       position: relative;
+            padding: 0;
+            width: 100%;
+            .textbox{
+                width: 100%;
+            }
+            .pickbox{
+                display: none;
+            }
+            .pickboxone{
+            height: 55vh;
+                .buy{
+                    .hovertext{
+                        left: 12%;
+                    }
+                }
+            }
+            .arrowleft{
+                left: -5%;
+                i{
+                    padding: 18px ;
+                }
+            }
+            .arrowright{
+                right: -5%;
+                i{
+                    padding: 18px;
+                }
+            }
+        }
+        
+    }
+    // ------- 
+    .kidsfashion{
+        width: 100%;
+        height: 150vh;
+        .bigbox{
+            position: relative;
+            .col-rev{
+                flex-direction: column-reverse;
+                .boxleft{
+                    width: 100%;
+                    position: absolute;
+                    top: 80%;
+                    height: 80%;
+                    .textbox{
+                        position: absolute;
+                        left: 20% ;
+                        text-align: center;
+                        h1{
+                            font-size: 12px;
+                        }
+                        a{
+                            display: block;
+                            margin: 2rem auto ;
+                        }
+                    }
+                }
+                .boxright{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    // ------- 
+    .bybrand{
+        .bigbox{
+            .allbrands{
+                .box{
+                    display: none;
+                }
+                .box1{
+                    margin: auto;
+                }
+            }
+        }
+    }
+    // -------
+    .bascard{
+        .newsbas{
+            input{
+                width: 90%;
+    
+            }
+            a{
+                margin-top: 20px;
+                display: inline-block;
+                width: 100%;
+                width: 90%;
+            }
+            
+        }
+    }
+    // ------- 
+    .gift{
+        width: 100%;
+        height: 180vh;
+        .bigbox{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            .boxtext{
+                height: 40vh;
+                padding-top: 10px;
+                h2{
+                    font-size: 2rem;
+                }
+                a{
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+

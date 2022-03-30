@@ -1,0 +1,3507 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap");
+.homepg {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-color: #E4DDD7;
+  background-image: url("../photo/homeimage1.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepg .texthome {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.homepg .texthome img {
+  margin-left: 16.5rem;
+}
+
+.homepg .texthome h1 {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Jost', sans-serif;
+}
+
+.homepg .texthome h2 {
+  font-family: 'Jost', sans-serif;
+}
+
+.homepg .texthome h2 strong {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.homepg .texthome h2 span span {
+  font-size: 8rem;
+  color: #769881;
+}
+
+.homepg .texthome a {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 15px 4rem;
+  background-color: #000;
+  color: white;
+  font-family: 'Jost', sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.homepg .texthome a:hover {
+  background-color: #769881;
+}
+
+.byshop {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.byshop h1 {
+  margin: 3rem 0;
+}
+
+.byshop .bigimgs {
+  width: 95%;
+  margin: auto;
+}
+
+.byshop .bigimgs .boximg {
+  position: relative;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 20px;
+}
+
+.byshop .bigimgs .boximg .slide {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+
+.byshop .bigimgs .boximg .slide i {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 22px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.byshop .bigimgs .boximg .slide:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.byshop .bigimgs .boximg .men {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.byshop .bigimgs .boximg .men a {
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.byshop .bigimgs .boximg .men a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.byshop .bigimgs .boximg .men a:hover i {
+  color: #769881;
+}
+
+.byshop .bigimgs .boximg .men a i {
+  padding: 8px;
+  color: #000;
+  border-radius: 18px;
+  background-color: #fff;
+  margin-left: 10rem;
+}
+
+.byshop .bigimgs .boximg:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.byshop .bigimgs .boximgwmn {
+  position: relative;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 20px;
+}
+
+.byshop .bigimgs .boximgwmn .wmn {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.byshop .bigimgs .boximgwmn .wmn a {
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+  background-color: #ffffff;
+  font-size: 19px;
+  padding: 14px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.byshop .bigimgs .boximgwmn .wmn a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.byshop .bigimgs .boximgwmn .wmn a:hover i {
+  color: #769881;
+}
+
+.byshop .bigimgs .boximgwmn .wmn a i {
+  padding: 7px;
+  color: #000;
+  border-radius: 18px;
+  background-color: #fff;
+  margin-left: 6rem;
+}
+
+.byshop .bigimgs .boximgwmn:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.byshop .bigimgs .boximgtop {
+  position: relative;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 20px;
+}
+
+.byshop .bigimgs .boximgtop .men {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.byshop .bigimgs .boximgtop .men a {
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.byshop .bigimgs .boximgtop .men a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.byshop .bigimgs .boximgtop .men a:hover i {
+  color: #769881;
+}
+
+.byshop .bigimgs .boximgtop .men a i {
+  padding: 8px;
+  color: #000;
+  border-radius: 18px;
+  background-color: #fff;
+  margin-left: 8rem;
+}
+
+.byshop .bigimgs .boximgtop .slidewoman {
+  position: absolute;
+  top: 40%;
+  right: 2%;
+}
+
+.byshop .bigimgs .boximgtop .slidewoman i {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.byshop .bigimgs .boximgtop .slidewoman:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.byshop .bigimgs .boximgtop:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.shcategory {
+  width: 100%;
+  height: 180vh;
+  font-family: 'Jost', sans-serif;
+}
+
+.shcategory .allbox .textbox {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+.shcategory .allbox .textbox h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.shcategory .allbox .textbox ul {
+  margin-left: 4rem;
+}
+
+.shcategory .allbox .textbox ul li a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 25px;
+  color: #858585;
+  font-size: 19px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.shcategory .allbox .textbox ul li a:hover {
+  border-bottom: 3px solid #000;
+  padding-bottom: 3px;
+  color: #000;
+}
+
+.shcategory .allbox .textbox ul li .all {
+  color: #000;
+  border-bottom: 3px solid #000;
+  padding: 2px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox {
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 4%;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext a {
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
+  padding: 9px 18px;
+  margin: 0 2px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.shcategory .allbox .shopbox .shopbigbox:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.shcategory .allbox .shopbox .shopbigbox:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text {
+  padding: 25px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .blue {
+  display: inline-block;
+  padding: 8px;
+  background-color: #bedce3;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .brown {
+  display: inline-block;
+  background-color: #866953;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .lightblue {
+  display: inline-block;
+  padding: 8px;
+  background-color: #8db4d2;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .pink {
+  display: inline-block;
+  padding: 8px;
+  background-color: #ffd1dc;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .gray {
+  display: inline-block;
+  padding: 8px;
+  background-color: #808080;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text .black {
+  display: inline-block;
+  padding: 8px;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text p:hover {
+  color: #f03d3F;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text h6 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text h6:hover {
+  color: #f03d3F;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.shcategory .allbox .shopbox .shopbigbox .text h5 span {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.shcategory .allbox .shopall {
+  width: 25%;
+  margin: auto;
+}
+
+.shcategory .allbox .shopall a {
+  text-align: center;
+  display: block;
+  margin-top: 3rem;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.shcategory .allbox .shopall a i {
+  margin-left: 10px;
+}
+
+.shcategory .allbox .shopall a:hover {
+  background-color: #769881;
+}
+
+.saleoff {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../photo/homebackgr.png);
+}
+
+.saleoff .boxsale {
+  padding-top: 2rem;
+}
+
+.saleoff .textsale {
+  padding-top: 3rem;
+}
+
+.saleoff .textsale p {
+  font-size: 2.5rem;
+  display: block;
+  font-weight: 300;
+}
+
+.saleoff .textsale p span {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.saleoff .textsale a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 40px;
+  background-color: #769881;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Jost', sans-serif;
+}
+
+.saleoff .salemiddle {
+  margin: 5rem 0 0 8rem;
+  border-right: 4px solid rgba(128, 128, 128, 0.514);
+}
+
+.foryou {
+  margin-top: 7rem;
+  width: 100%;
+  height: 80vh;
+}
+
+.foryou .bigpicks {
+  padding: 0 4rem;
+  width: 100%;
+  position: relative;
+}
+
+.foryou .bigpicks .textbox {
+  width: 40%;
+  margin: auto;
+}
+
+.foryou .bigpicks .pickbox {
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.foryou .bigpicks .pickbox .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.foryou .bigpicks .pickbox .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.foryou .bigpicks .pickbox .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.foryou .bigpicks .pickbox .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 4%;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext a {
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext .eye {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext .opt {
+  padding: 9px 13px;
+  margin: 0 1px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.foryou .bigpicks .pickbox .buy .hovertext .refresh {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.foryou .bigpicks .pickbox:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.foryou .bigpicks .pickbox:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.foryou .bigpicks .pickbox .text {
+  padding: 25px;
+}
+
+.foryou .bigpicks .pickbox .text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryou .bigpicks .pickbox .text p:hover {
+  color: #f03d3F;
+}
+
+.foryou .bigpicks .pickbox .text h6 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryou .bigpicks .pickbox .text h6:hover {
+  color: #f03d3F;
+}
+
+.foryou .bigpicks .pickbox .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.foryou .bigpicks .pickbox .text h5 span {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.foryou .bigpicks .arrowleft {
+  position: absolute;
+  bottom: 50%;
+  left: 0%;
+}
+
+.foryou .bigpicks .arrowleft i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.foryou .bigpicks .arrowright {
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+}
+
+.foryou .bigpicks .arrowright i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.mostloved {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #FFFFFF), color-stop(0%, #FCF5EA));
+  background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
+}
+
+.mostloved .bigmost {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding: 0 4.5rem;
+}
+
+.mostloved .bigmost .text {
+  padding-top: 20px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.mostloved .bigmost .pics {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.mostloved .bigmost .pics .imgbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.mostloved .bigmost .pics .imgbox .hoverimg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.mostloved .bigmost .pics:hover .hoverimg {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.mostloved .bigmost .pics .textmost {
+  margin-top: 25px;
+}
+
+.mostloved .bigmost .pics .textmost a {
+  text-decoration: none;
+  color: #2c2f40;
+  font-size: 25px;
+}
+
+.mostloved .bigmost .pics .textmost a i {
+  color: #000;
+  margin-left: 9rem;
+  font-size: 15px;
+}
+
+.mostloved .bigmost .picssecond {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.mostloved .bigmost .picssecond .imgbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.mostloved .bigmost .picssecond .imgbox .hoverimg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.mostloved .bigmost .picssecond:hover .hoverimg {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.mostloved .bigmost .picssecond .textmost {
+  margin-top: 25px;
+}
+
+.mostloved .bigmost .picssecond .textmost a {
+  text-decoration: none;
+  color: #2c2f40;
+  font-size: 25px;
+}
+
+.mostloved .bigmost .picssecond .textmost a i {
+  color: #000;
+  margin-left: 9rem;
+  font-size: 15px;
+}
+
+.mostloved .bigmost .arrowleft {
+  position: absolute;
+  bottom: 40%;
+  left: 1%;
+}
+
+.mostloved .bigmost .arrowleft i {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.mostloved .bigmost .arrowleft:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.mostloved .bigmost .arrowright {
+  position: absolute;
+  bottom: 40%;
+  right: 1%;
+}
+
+.mostloved .bigmost .arrowright i {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.mostloved .bigmost .arrowright:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.news {
+  width: 100%;
+  height: 80vh;
+}
+
+.news .top {
+  width: 90%;
+  height: 55vh;
+  margin: auto;
+  text-align: center;
+  border: 10px solid #D4D6E5;
+  padding: 50px 20px 80px 20px;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.news .top .toptext {
+  text-align: center;
+}
+
+.news .top .toptext h1 {
+  margin-bottom: 20px;
+}
+
+.news .top input {
+  margin-top: 35px;
+  width: 45%;
+  padding: 20px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452);
+}
+
+.news .top a {
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 20px 35px;
+  display: inline-block;
+  background-color: #769881;
+  color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-weight: 300;
+}
+
+.news .top a i {
+  margin-left: 5px;
+}
+
+.news .top a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.news .bottext {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.news .bottext .boxi {
+  position: relative;
+}
+
+.news .bottext .boxi .iconbox {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+.news .bottext .boxi .iconbox i {
+  font-size: 20px;
+}
+
+.news .bottext .boxi .textbox {
+  margin-left: 3rem;
+}
+
+.news .bottext .boxi .textbox h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media (max-width: 576px) {
+  .homepg {
+    background-image: url(../photo/homebackgr.png);
+  }
+  .byshop {
+    height: 110vh;
+    font-family: 'Jost', sans-serif;
+  }
+  .byshop .bigimgs {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg .men a {
+    font-size: 22px;
+    padding: 15px 2rem 15px 15px;
+  }
+  .byshop .bigimgs .boximg .men a i {
+    margin-left: 17rem;
+  }
+  .byshop .bigimgs .boximg .display {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+  }
+  .byshop .bigimgs .boximg .display i {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 18px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .byshop .bigimgs .boximg .display:hover i {
+    background-color: #769881;
+  }
+  .byshop .bigimgs .boximgwmn {
+    display: none;
+  }
+  .byshop .bigimgs .boximgtop {
+    display: none;
+  }
+  .shcategory {
+    height: 860vh;
+  }
+  .shcategory .allbox {
+    margin-top: 3rem;
+  }
+  .shcategory .allbox .textbox {
+    width: 100%;
+  }
+  .shcategory .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .shcategory .allbox .textbox ul {
+    margin-left: 5rem;
+  }
+  .shcategory .allbox .textbox ul li a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+  }
+  .shcategory .allbox .textbox ul li .all {
+    padding-bottom: 0%;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+    padding: 10px 17px;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
+    padding: 12px 8rem;
+    text-align: center;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+    padding: 10px 15px;
+  }
+  .shcategory .allbox .shopall {
+    width: 50%;
+  }
+  .saleoff {
+    height: 70vh;
+    background-color: #fff;
+    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+  }
+  .saleoff .boxsale {
+    display: none;
+  }
+  .saleoff .salemiddle {
+    margin-top: 0;
+    margin-left: 30px;
+    border: none;
+  }
+  .saleoff .textsale {
+    padding-left: 20px;
+  }
+  .saleoff .textsale p span {
+    font-size: 4rem;
+  }
+  .foryou {
+    width: 100%;
+    height: 80vh;
+  }
+  .foryou .bigpicks .textbox {
+    width: 60%;
+  }
+  .foryou .bigpicks .pickbox {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+  }
+  .foryou .bigpicks .shopbigbox .buy {
+    position: relative;
+    overflow: hidden;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hoverbox {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .heart {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 5px 9px;
+    background-color: #fff;
+    border-radius: 22px;
+    font-size: 18px;
+    color: #000;
+  }
+  .foryou .bigpicks .shopbigbox .buy .off {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a {
+    text-decoration: none;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a:hover {
+    background-color: #769881;
+    color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
+    padding: 6px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 1px;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
+    padding: 6px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hovertext a {
+    visibility: visible;
+    opacity: 1;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hoverbox {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .foryou .bigpicks .shopbigbox .text {
+    padding: 10px 20px;
+  }
+  .foryou .bigpicks .shopbigbox .text .blue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #bedce3;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .brown {
+    display: inline-block;
+    background-color: #866953;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .lightblue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #8db4d2;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .pink {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffd1dc;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #808080;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text p:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h6 {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text h6:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 span {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .mostloved .bigmost {
+    padding: 0;
+  }
+  .mostloved .bigmost .text {
+    width: 70%;
+  }
+  .mostloved .bigmost .pics .textmost a {
+    font-weight: 300;
+  }
+  .mostloved .bigmost .pics .textmost a i {
+    margin-left: 9rem;
+  }
+  .mostloved .bigmost .picssecond {
+    display: none;
+  }
+  .news .top {
+    width: 100%;
+  }
+  .news .top .toptext h1 {
+    font-size: 2.5rem;
+  }
+  .news .top .toptext span {
+    font-size: 13px;
+  }
+  .news .top input {
+    width: 90%;
+    display: block;
+    margin-left: 25px;
+  }
+  .news .top a {
+    margin-top: 10px;
+    width: 90%;
+  }
+  .news .bottext {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  .news .bottext .boxi {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .byshop .bigimgs .boximg .display {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    display: none;
+  }
+}
+
+.holidayhome {
+  width: 95%;
+  margin: auto;
+  height: 110vh;
+  background-color: #FAF9F7;
+}
+
+.holidayhome .bigbox {
+  position: relative;
+}
+
+.holidayhome .bigbox .boxtext {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.holidayhome .bigbox .boxtext h3 {
+  font-size: 23px;
+}
+
+.holidayhome .bigbox .boxtext h1 {
+  font-size: 5rem;
+  margin: 20px 0;
+}
+
+.holidayhome .bigbox .boxtext span {
+  display: block;
+  color: #858585;
+  font-size: 20px;
+}
+
+.holidayhome .bigbox .boxtext a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 2rem 25px 0 0;
+  text-align: center;
+}
+
+.holidayhome .bigbox .boxtext a i {
+  margin-left: 5px;
+}
+
+.holidayhome .bigbox .boxtext .men {
+  padding: 20px 4rem;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.holidayhome .bigbox .boxtext .men:hover {
+  background-color: #769881;
+}
+
+.holidayhome .bigbox .boxtext .woman {
+  border-bottom: 1px solid #000;
+  color: #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.holidayhome .bigbox .boxtext .woman:hover {
+  color: #769881;
+}
+
+.holidayhome .bigbox .imgbox {
+  text-align: right;
+}
+
+.holidayhome .bigbox .arrowleft {
+  position: absolute;
+  bottom: 50%;
+  left: 4%;
+}
+
+.holidayhome .bigbox .arrowleft:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.holidayhome .bigbox .arrowleft i {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.holidayhome .bigbox .arrowright {
+  position: absolute;
+  bottom: 50%;
+  right: 4%;
+}
+
+.holidayhome .bigbox .arrowright:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.holidayhome .bigbox .arrowright i {
+  padding: 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.icons {
+  width: 100%;
+  height: 30vh;
+}
+
+.icons .bottext {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.icons .bottext .boxi {
+  position: relative;
+}
+
+.icons .bottext .boxi .iconbox {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+.icons .bottext .boxi .iconbox i {
+  font-size: 25px;
+}
+
+.icons .bottext .boxi .textbox {
+  margin-left: 3rem;
+}
+
+.icons .bottext .boxi .textbox h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.shopcateg {
+  width: 100%;
+  height: 100vh;
+}
+
+.shopcateg .bigshop {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  padding: 20px;
+}
+
+.shopcateg .bigshop .text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.shopcateg .bigshop .text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.shopcateg .bigshop .allimgs {
+  width: 100%;
+}
+
+.shopcateg .bigshop .allimgs .boximg {
+  position: relative;
+}
+
+.shopcateg .bigshop .allimgs .boximg .textimg {
+  position: absolute;
+  bottom: 4%;
+  left: 5%;
+}
+
+.shopcateg .bigshop .allimgs .boximg .textimg a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+}
+
+.shopcateg .bigshop .allimgs .boximg .textimg a i {
+  padding: 13px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-left: 9rem;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.shopcateg .bigshop .allimgs .boximg .textimg a i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.shopcateg .bigshop .allimgs .boximgkid {
+  position: relative;
+}
+
+.shopcateg .bigshop .allimgs .boximgkid .textimg {
+  position: absolute;
+  bottom: 4%;
+  left: 5%;
+}
+
+.shopcateg .bigshop .allimgs .boximgkid .textimg a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+}
+
+.shopcateg .bigshop .allimgs .boximgkid .textimg a i {
+  padding: 13px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-left: 10rem;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.shopcateg .bigshop .allimgs .boximgkid .textimg a i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.shopcateg .bigshop .leftarrow {
+  position: absolute;
+  bottom: 40%;
+  left: 0%;
+}
+
+.shopcateg .bigshop .leftarrow i {
+  padding: 18px;
+  border-radius: 30px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.shopcateg .bigshop .leftarrow:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.shopcateg .bigshop .rightarrow {
+  position: absolute;
+  bottom: 40%;
+  right: 0%;
+}
+
+.shopcateg .bigshop .rightarrow i {
+  padding: 18px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.shopcateg .bigshop .rightarrow:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.newarriwals {
+  width: 100%;
+  height: 160vh;
+}
+
+.newarriwals .allbox {
+  width: 80%;
+  margin: auto;
+}
+
+.newarriwals .allbox .textbox {
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+
+.newarriwals .allbox .textbox h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.newarriwals .allbox .textbox ul {
+  margin-left: 3rem;
+}
+
+.newarriwals .allbox .textbox ul li a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 40px;
+  color: #858585;
+  font-size: 19px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.newarriwals .allbox .textbox ul li a:hover {
+  border-bottom: 3px solid #000;
+  padding-bottom: 3px;
+  color: #000;
+}
+
+.newarriwals .allbox .textbox ul li .all {
+  color: #000;
+  border-bottom: 3px solid #000;
+  padding: 2px;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox {
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 11%;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 5px 2px;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext .heartbox {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext .shopping {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text {
+  padding: 25px;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text p:hover {
+  color: #769881;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text h6 {
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text h6:hover {
+  color: #769881;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #808080;
+  font-weight: 300;
+}
+
+.newarriwals .allbox .shopbox .shopbigbox .text h5 span {
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: normal;
+  color: #769881;
+}
+
+.newarriwals .allbox .shopall {
+  width: 25%;
+  margin: auto;
+}
+
+.newarriwals .allbox .shopall a {
+  text-align: center;
+  display: block;
+  margin-top: 3rem;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.newarriwals .allbox .shopall a i {
+  margin-left: 10px;
+}
+
+.newarriwals .allbox .shopall a:hover {
+  background-color: #769881;
+}
+
+.newarriwals .allbox .shopnow {
+  width: 25%;
+  margin: auto;
+}
+
+.newarriwals .allbox .shopnow a {
+  text-align: center;
+  display: block;
+  margin-top: 3rem;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.newarriwals .allbox .shopnow a i {
+  margin-left: 10px;
+}
+
+.newarriwals .allbox .shopnow a:hover {
+  background-color: #769881;
+}
+
+.vacation {
+  width: 100%;
+  height: 150vh;
+}
+
+.vacation .topbox .rightbox {
+  margin: 5rem 0 0 -6rem;
+}
+
+.vacation .topbox .rightbox h1 {
+  font-size: 3rem;
+}
+
+.vacation .topbox .rightbox span {
+  display: block;
+  margin: 20px 0;
+}
+
+.vacation .topbox .rightbox a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-size: 17px;
+  border-bottom: 1px solid #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.vacation .topbox .rightbox a:hover {
+  color: #769881;
+}
+
+.vacation .downbox {
+  margin-top: 3rem;
+}
+
+.vacation .downbox .boxright {
+  margin-top: 9rem;
+}
+
+.vacation .downbox .boxright h1 {
+  font-size: 3rem;
+}
+
+.vacation .downbox .boxright span {
+  display: block;
+  margin: 20px 0;
+}
+
+.vacation .downbox .boxright a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-size: 17px;
+  border-bottom: 1px solid #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.vacation .downbox .boxright a:hover {
+  color: #769881;
+}
+
+.vacation .downbox .boxrightrespons h1 {
+  font-size: 3rem;
+}
+
+.vacation .downbox .boxrightrespons span {
+  display: block;
+  margin: 20px 0;
+}
+
+.vacation .downbox .boxrightrespons a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-size: 17px;
+  border-bottom: 1px solid #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.vacation .downbox .boxrightrespons a:hover {
+  color: #769881;
+}
+
+.foryoupic {
+  width: 100%;
+  height: 100vh;
+}
+
+.foryoupic .bigpicks {
+  padding: 0 4rem;
+  width: 100%;
+  position: relative;
+}
+
+.foryoupic .bigpicks .textbox {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.foryoupic .bigpicks .textbox h1 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.foryoupic .bigpicks .pickbox {
+  height: 55vh;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.foryoupic .bigpicks .pickbox .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.foryoupic .bigpicks .pickbox .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.foryoupic .bigpicks .pickbox .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 18%;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 3px;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext .eye {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext .heartbox {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext .shopping {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickbox .buy .hovertext .refresh {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickbox:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.foryoupic .bigpicks .pickbox:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.foryoupic .bigpicks .pickbox .text {
+  padding: 25px;
+}
+
+.foryoupic .bigpicks .pickbox .text p {
+  margin-top: 10px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .pickbox .text p:hover {
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickbox .text h6 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 300;
+}
+
+.foryoupic .bigpicks .pickbox .text h6:hover {
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickbox .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #808080;
+  font-weight: 300;
+}
+
+.foryoupic .bigpicks .pickbox .text h5 span {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: normal;
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickbox:hover .hovertext {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.foryoupic .bigpicks .pickboxone {
+  height: 55vh;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.foryoupic .bigpicks .pickboxone .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 18%;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 3px;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext .eye {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext .heartbox {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext .shopping {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickboxone .buy .hovertext .refresh {
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.foryoupic .bigpicks .pickboxone:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.foryoupic .bigpicks .pickboxone:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.foryoupic .bigpicks .pickboxone .text {
+  padding: 25px;
+}
+
+.foryoupic .bigpicks .pickboxone .text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .pickboxone .text p:hover {
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickboxone .text h6 {
+  font-size: 12px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 300;
+}
+
+.foryoupic .bigpicks .pickboxone .text h6:hover {
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickboxone .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #808080;
+  font-weight: 300;
+}
+
+.foryoupic .bigpicks .pickboxone .text h5 span {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: normal;
+  color: #769881;
+}
+
+.foryoupic .bigpicks .pickboxone:hover .hovertext {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.foryoupic .bigpicks .arrowleft {
+  position: absolute;
+  bottom: 50%;
+  left: 0%;
+}
+
+.foryoupic .bigpicks .arrowleft i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .arrowleft:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.foryoupic .bigpicks .arrowright {
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+}
+
+.foryoupic .bigpicks .arrowright i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryoupic .bigpicks .arrowright:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.kidsfashion {
+  width: 100%;
+  height: 100vh;
+}
+
+.kidsfashion .bigbox {
+  width: 95%;
+  margin: auto;
+}
+
+.kidsfashion .bigbox .boxleft {
+  position: relative;
+  height: 100%;
+  background-image: url(https://demo.themewinter.com/wp/bascart/fashion/wp-content/uploads/sites/8/2022/01/up_to_off_shape.png);
+  background-color: #769881;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.kidsfashion .bigbox .boxleft .textbox {
+  position: absolute;
+  top: 18%;
+  left: 28%;
+  width: 55%;
+  margin: auto;
+  color: #fff;
+}
+
+.kidsfashion .bigbox .boxleft .textbox h5 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.kidsfashion .bigbox .boxleft .textbox h1 {
+  margin: 20px 0;
+  font-size: 3.5rem;
+}
+
+.kidsfashion .bigbox .boxleft .textbox a {
+  margin-top: 2rem;
+  text-decoration: none;
+  padding: 15px 0;
+  width: 55%;
+  text-align: center;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.kidsfashion .bigbox .boxleft .textbox a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.kidsfashion .bigbox .boxright {
+  margin-left: -1.5rem;
+}
+
+.kidsfashion .bigbox .arrowleft {
+  position: absolute;
+  bottom: 20%;
+  left: 0%;
+}
+
+.kidsfashion .bigbox .arrowleft i {
+  padding: 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #fff;
+}
+
+.kidsfashion .bigbox .arrowleft:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.kidsfashion .bigbox .arrowright {
+  position: absolute;
+  bottom: 20%;
+  right: 0%;
+}
+
+.kidsfashion .bigbox .arrowright i {
+  padding: 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.kidsfashion .bigbox .arrowright:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.bybrand {
+  width: 100%;
+  height: 50vh;
+}
+
+.bybrand .bigbox {
+  position: relative;
+}
+
+.bybrand .bigbox h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.bybrand .bigbox .allbrands {
+  margin-left: 7rem;
+}
+
+.bybrand .bigbox .allbrands .box {
+  border: 0.5px solid rgba(128, 128, 128, 0.473);
+  text-align: center;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 35px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.bybrand .bigbox .allbrands .box:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.bybrand .bigbox .allbrands .box img {
+  width: 78px;
+  height: 22px;
+}
+
+.bybrand .bigbox .allbrands .box1 {
+  border: 0.5px solid rgba(128, 128, 128, 0.473);
+  text-align: center;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 35px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.bybrand .bigbox .allbrands .box1:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.bybrand .bigbox .allbrands .box1 img {
+  width: 78px;
+  height: 22px;
+}
+
+.bybrand .bigbox .arrowleft {
+  position: absolute;
+  bottom: 20%;
+  left: 3%;
+}
+
+.bybrand .bigbox .arrowleft i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.bybrand .bigbox .arrowleft:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.bybrand .bigbox .arrowright {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+
+.bybrand .bigbox .arrowright i {
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.bybrand .bigbox .arrowright:hover i {
+  background-color: #769881;
+  color: #fff;
+}
+
+.bascard {
+  width: 100%;
+  height: 60vh;
+}
+
+.bascard .newsbas {
+  width: 100%;
+  text-align: center;
+  height: 50vh;
+  background-color: #f9f9f9;
+}
+
+.bascard .newsbas .toptext {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.bascard .newsbas .toptext h1 {
+  margin-top: 3rem;
+  margin-bottom: 20px;
+}
+
+.bascard .newsbas input {
+  margin-top: 35px;
+  width: 45%;
+  padding: 20px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452);
+}
+
+.bascard .newsbas a {
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 20px 35px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-weight: 300;
+}
+
+.bascard .newsbas a i {
+  margin-left: 5px;
+}
+
+.bascard .newsbas a:hover {
+  background-color: #769881;
+}
+
+.gift {
+  width: 100%;
+  height: 100vh;
+  margin-top: 3rem;
+}
+
+.gift .bigbox {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.gift .bigbox .boxtext {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.gift .bigbox .boxtext h2 {
+  margin: 20px 0;
+  font-size: 3rem;
+}
+
+.gift .bigbox .boxtext span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.gift .bigbox .boxtext a {
+  display: block;
+  width: 70%;
+  margin: auto;
+  text-decoration: none;
+  padding: 15px 25px;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.gift .bigbox .boxtext a:hover {
+  background-color: #769881;
+}
+
+@media (max-width: 576px) {
+  .holidayhome {
+    width: 100%;
+    height: 150vh;
+  }
+  .holidayhome .bigbox {
+    position: relative;
+  }
+  .holidayhome .bigbox .boxtext {
+    position: absolute;
+    top: 110%;
+    left: 2%;
+  }
+  .holidayhome .bigbox .boxtext h3 {
+    font-size: 16px;
+  }
+  .holidayhome .bigbox .boxtext h1 {
+    font-size: 35px;
+  }
+  .holidayhome .bigbox .boxtext span {
+    font-size: 18px;
+  }
+  .holidayhome .bigbox .boxtext a {
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+  .holidayhome .bigbox .boxtext .men {
+    margin-top: 10px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .holidayhome .bigbox .boxtext .woman {
+    margin-top: 15px;
+  }
+  .holidayhome .bigbox .arrowleft {
+    position: absolute;
+    bottom: 20%;
+  }
+  .holidayhome .bigbox .arrowright {
+    position: absolute;
+    bottom: 20%;
+  }
+  .icons {
+    margin-left: 10px;
+  }
+  .icons .bottext {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .icons .bottext .boxi {
+    margin-top: 15px;
+  }
+  .shopcateg {
+    width: 100%;
+    height: 120vh;
+  }
+  .shopcateg .bigshop {
+    margin-top: 4rem;
+  }
+  .shopcateg .bigshop .text {
+    width: 80%;
+  }
+  .shopcateg .bigshop .allimgs .boximg {
+    display: none;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid {
+    width: 100%;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid img {
+    width: 100%;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid .textimg a i {
+    margin-left: 23rem;
+  }
+  .shopcateg .bigshop .leftarrow {
+    position: absolute;
+    left: 6%;
+  }
+  .shopcateg .bigshop .leftarrow i {
+    padding: 14px;
+  }
+  .shopcateg .bigshop .rightarrow {
+    position: absolute;
+    right: 6%;
+  }
+  .shopcateg .bigshop .rightarrow i {
+    padding: 12px;
+  }
+  .newarriwals {
+    width: 100%;
+    height: 780vh;
+  }
+  .newarriwals .allbox {
+    width: 100%;
+  }
+  .newarriwals .allbox .textbox {
+    width: 80%;
+  }
+  .newarriwals .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .newarriwals .allbox .textbox ul {
+    margin-left: 2.5rem;
+  }
+  .newarriwals .allbox .textbox ul li a {
+    margin-left: 30px;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox {
+    border: none;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox .buy .hovertext {
+    position: absolute;
+    left: 35%;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox .text {
+    text-align: left;
+    padding: 5px;
+  }
+  .newarriwals .allbox .shopnow {
+    width: 50%;
+  }
+  .vacation {
+    height: 200vh;
+  }
+  .vacation .topbox {
+    margin-top: 4rem;
+  }
+  .vacation .topbox .imgbox {
+    margin-bottom: 2rem;
+  }
+  .vacation .topbox .rightbox {
+    margin: 0;
+  }
+  .vacation .downbox .boxright {
+    display: none;
+  }
+  .vacation .downbox .boxrightrespons {
+    margin-top: 2rem;
+  }
+  .foryoupic .bigpicks .textbox {
+    width: 100%;
+  }
+  .foryoupic .bigpicks .pickbox {
+    display: none;
+  }
+  .foryoupic .bigpicks .pickboxone {
+    height: 40vh;
+  }
+  .foryoupic .bigpicks .pickboxone .buy .hovertext {
+    left: 4%;
+  }
+  .foryoupic .bigpicks .arrowleft {
+    left: 6%;
+  }
+  .foryoupic .bigpicks .arrowright {
+    right: 6%;
+  }
+  .kidsfashion {
+    width: 100%;
+    height: 100vh;
+  }
+  .kidsfashion .bigbox {
+    position: relative;
+  }
+  .kidsfashion .bigbox .col-rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft {
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    height: 80%;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox {
+    position: absolute;
+    left: 20%;
+    text-align: center;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox h1 {
+    font-size: 12px;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox a {
+    display: block;
+    margin: 2rem auto;
+  }
+  .kidsfashion .bigbox .col-rev .boxright {
+    margin: 0;
+  }
+  .bybrand .bigbox .allbrands .box {
+    display: none;
+  }
+  .bybrand .bigbox .allbrands .box1 {
+    margin: auto;
+  }
+  .bascard .newsbas input {
+    width: 90%;
+    display: inline-block;
+  }
+  .bascard .newsbas a {
+    margin-top: 20px;
+    display: inline-block;
+    width: 90%;
+  }
+  .gift {
+    width: 100%;
+    height: 180vh;
+  }
+  .gift .bigbox {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .gift .bigbox .boxtext {
+    height: 40vh;
+    padding-top: 10px;
+  }
+  .gift .bigbox .boxtext h2 {
+    font-size: 2rem;
+  }
+  .gift .bigbox .boxtext a {
+    width: 35%;
+  }
+}
+
+@media (min-width: 786px) {
+  .vacation .downbox .boxright {
+    margin-top: 3rem;
+  }
+  .vacation .downbox .boxrightrespons {
+    display: none;
+  }
+  .foryoupic .bigpicks .responsbox {
+    display: none;
+  }
+  .kidsfashion .bigbox .arrowleft {
+    display: none;
+  }
+  .kidsfashion .bigbox .arrowright {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .holidayhome {
+    width: 100%;
+    height: 150vh;
+  }
+  .holidayhome .bigbox {
+    position: relative;
+  }
+  .holidayhome .bigbox .boxtext {
+    position: absolute;
+    top: 110%;
+    left: 2%;
+  }
+  .holidayhome .bigbox .boxtext h3 {
+    font-size: 16px;
+  }
+  .holidayhome .bigbox .boxtext h1 {
+    font-size: 35px;
+  }
+  .holidayhome .bigbox .boxtext span {
+    font-size: 18px;
+  }
+  .holidayhome .bigbox .boxtext a {
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+  .holidayhome .bigbox .boxtext .men {
+    margin-top: 10px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+  .holidayhome .bigbox .boxtext .woman {
+    margin-top: 15px;
+  }
+  .holidayhome .bigbox .imgbox {
+    margin-right: 4rem;
+  }
+  .holidayhome .bigbox .arrowleft {
+    position: absolute;
+    bottom: 20%;
+  }
+  .holidayhome .bigbox .arrowright {
+    position: absolute;
+    bottom: 20%;
+  }
+  .shopcateg {
+    width: 100%;
+    height: 150vh;
+  }
+  .shopcateg .bigshop {
+    margin-top: 4rem;
+  }
+  .shopcateg .bigshop .text {
+    width: 80%;
+  }
+  .shopcateg .bigshop .allimgs .boximg {
+    display: none;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid {
+    width: 100%;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid img {
+    width: 100%;
+  }
+  .shopcateg .bigshop .allimgs .boximgkid .textimg a i {
+    margin-left: 23rem;
+  }
+  .shopcateg .bigshop .leftarrow {
+    position: absolute;
+    left: 6%;
+  }
+  .shopcateg .bigshop .leftarrow i {
+    padding: 14px;
+  }
+  .shopcateg .bigshop .rightarrow {
+    position: absolute;
+    right: 6%;
+  }
+  .shopcateg .bigshop .rightarrow i {
+    padding: 12px;
+  }
+  .newarriwals {
+    width: 100%;
+    height: 750vh;
+  }
+  .newarriwals .allbox {
+    width: 100%;
+  }
+  .newarriwals .allbox .textbox {
+    width: 80%;
+  }
+  .newarriwals .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .newarriwals .allbox .textbox ul {
+    margin-left: 2.5rem;
+  }
+  .newarriwals .allbox .textbox ul li a {
+    margin-left: 30px;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox {
+    border: none;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox .buy .hovertext {
+    position: absolute;
+    left: 35%;
+  }
+  .newarriwals .allbox .shopbox .shopbigbox .text {
+    text-align: left;
+    padding: 5px;
+  }
+  .newarriwals .allbox .shopnow {
+    width: 50%;
+  }
+  .vacation {
+    width: 100%;
+    height: 200vh;
+  }
+  .vacation .topbox {
+    margin-top: 4rem;
+  }
+  .vacation .topbox .imgbox {
+    margin-bottom: 2rem;
+  }
+  .vacation .topbox .rightbox {
+    margin: 0;
+  }
+  .vacation .downbox .boxright {
+    display: none;
+  }
+  .vacation .downbox .boxrightrespons {
+    margin-top: 2rem;
+  }
+  .foryoupic {
+    width: 100%;
+  }
+  .foryoupic .bigpicks {
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+  .foryoupic .bigpicks .textbox {
+    width: 100%;
+  }
+  .foryoupic .bigpicks .pickbox {
+    display: none;
+  }
+  .foryoupic .bigpicks .pickboxone {
+    height: 55vh;
+  }
+  .foryoupic .bigpicks .pickboxone .buy .hovertext {
+    left: 12%;
+  }
+  .foryoupic .bigpicks .arrowleft {
+    left: -5%;
+  }
+  .foryoupic .bigpicks .arrowleft i {
+    padding: 18px;
+  }
+  .foryoupic .bigpicks .arrowright {
+    right: -5%;
+  }
+  .foryoupic .bigpicks .arrowright i {
+    padding: 18px;
+  }
+  .kidsfashion {
+    width: 100%;
+    height: 150vh;
+  }
+  .kidsfashion .bigbox {
+    position: relative;
+  }
+  .kidsfashion .bigbox .col-rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft {
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    height: 80%;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox {
+    position: absolute;
+    left: 20%;
+    text-align: center;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox h1 {
+    font-size: 12px;
+  }
+  .kidsfashion .bigbox .col-rev .boxleft .textbox a {
+    display: block;
+    margin: 2rem auto;
+  }
+  .kidsfashion .bigbox .col-rev .boxright {
+    margin: 0;
+  }
+  .bybrand .bigbox .allbrands .box {
+    display: none;
+  }
+  .bybrand .bigbox .allbrands .box1 {
+    margin: auto;
+  }
+  .bascard .newsbas input {
+    width: 90%;
+  }
+  .bascard .newsbas a {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    width: 90%;
+  }
+  .gift {
+    width: 100%;
+    height: 180vh;
+  }
+  .gift .bigbox {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .gift .bigbox .boxtext {
+    height: 40vh;
+    padding-top: 10px;
+  }
+  .gift .bigbox .boxtext h2 {
+    font-size: 2rem;
+  }
+  .gift .bigbox .boxtext a {
+    width: 35%;
+  }
+}
+
+.cards {
+  width: 100%;
+  height: 35vh;
+  background-image: url(https://demo.themewinter.com/wp/bascart/fashion/wp-content/uploads/sites/8/2021/11/banner-v2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.cards .cardbox {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.cards .cardbox h2 {
+  font-weight: bolder;
+  font-family: 'Jost', sans-serif;
+}
+
+.cards .cardbox h5 {
+  display: inline;
+  font-size: 13px;
+}
+
+.cards .cardbox h5 li {
+  display: inline;
+}
+
+.choosecard {
+  width: 100%;
+  height: 120vh;
+  margin-top: 2rem;
+}
+
+.choosecard .textbox {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Jost', sans-serif;
+}
+
+.choosecard .textbox span {
+  color: #858585;
+}
+
+.choosecard .giftbox .box {
+  height: 45vh;
+}
+
+.choosecard .giftbox .box .imgbox {
+  height: 32vh;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #F3F4F6;
+  text-align: center;
+}
+
+.choosecard .giftbox .box .imgbox img {
+  margin-top: 2rem;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.choosecard .giftbox .box .textbox {
+  text-align: center;
+}
+
+.personalize {
+  width: 100%;
+  height: 120vh;
+}
+
+.personalize .bigbox {
+  width: 80%;
+  height: 110vh;
+  margin: auto;
+  background-color: #F3F4F6;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.personalize .bigbox span {
+  color: #858585;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.personalize .bigbox .tobox h5 {
+  font-size: 16px;
+}
+
+.personalize .bigbox .tobox input {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(128, 128, 128, 0.301);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.personalize .bigbox .frombox h5 {
+  font-size: 16px;
+}
+
+.personalize .bigbox .frombox input {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(128, 128, 128, 0.301);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.personalize .bigbox .frombox .message {
+  height: 20vh;
+  padding-top: 0;
+}
+
+.personalize .bigbox a {
+  text-decoration: none;
+  display: block;
+  width: 15%;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #000;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.personalize .bigbox a i {
+  margin-left: 5px;
+}
+
+.personalize .bigbox a:hover {
+  background-color: #f03d3F;
+}
+
+.news {
+  width: 100%;
+  height: 50vh;
+}
+
+.news .bottext {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.news .bottext .boxi {
+  position: relative;
+}
+
+.news .bottext .boxi .iconbox {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+.news .bottext .boxi .iconbox i {
+  font-size: 20px;
+}
+
+.news .bottext .boxi .textbox {
+  margin-left: 3rem;
+}
+
+.news .bottext .boxi .textbox h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media (max-width: 576px) {
+  .choosecard {
+    height: 300vh;
+  }
+  .personalize {
+    height: 110vh;
+  }
+  .personalize .bigbox {
+    width: 100%;
+  }
+  .personalize .bigbox a {
+    width: 30%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .choosecard {
+    width: 100%;
+    height: 300vh;
+  }
+  .personalize {
+    height: 125vh;
+  }
+  .personalize .bigbox {
+    width: 100%;
+  }
+  .personalize .bigbox a {
+    width: 35%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .choosecard {
+    width: 100%;
+  }
+  .personalize {
+    width: 100%;
+  }
+  .personalize .bigbox {
+    width: 100%;
+  }
+  .personalize .bigbox a {
+    width: 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  .homepg {
+    background-image: url(../photo/homebackgr.png);
+  }
+  .byshop {
+    height: 110vh;
+    font-family: 'Jost', sans-serif;
+  }
+  .byshop .bigimgs {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg .men a {
+    font-size: 22px;
+    padding: 15px 2rem 15px 15px;
+  }
+  .byshop .bigimgs .boximg .men a i {
+    margin-left: 17rem;
+  }
+  .byshop .bigimgs .boximg .display {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+  }
+  .byshop .bigimgs .boximg .display i {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 18px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .byshop .bigimgs .boximg .display:hover i {
+    background-color: #769881;
+  }
+  .byshop .bigimgs .boximgwmn {
+    display: none;
+  }
+  .byshop .bigimgs .boximgtop {
+    display: none;
+  }
+  .shcategory {
+    height: 860vh;
+  }
+  .shcategory .allbox {
+    margin-top: 3rem;
+  }
+  .shcategory .allbox .textbox {
+    width: 100%;
+  }
+  .shcategory .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .shcategory .allbox .textbox ul {
+    margin-left: 5rem;
+  }
+  .shcategory .allbox .textbox ul li a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+  }
+  .shcategory .allbox .textbox ul li .all {
+    padding-bottom: 0%;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+    padding: 10px 17px;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
+    padding: 12px 8rem;
+    text-align: center;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+    padding: 10px 15px;
+  }
+  .shcategory .allbox .shopall {
+    width: 50%;
+  }
+  .saleoff {
+    height: 70vh;
+    background-color: #fff;
+    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+  }
+  .saleoff .boxsale {
+    display: none;
+  }
+  .saleoff .salemiddle {
+    margin-top: 0;
+    margin-left: 30px;
+    border: none;
+  }
+  .saleoff .textsale {
+    padding-left: 20px;
+  }
+  .saleoff .textsale p span {
+    font-size: 4rem;
+  }
+  .foryou {
+    width: 100%;
+    height: 80vh;
+  }
+  .foryou .bigpicks .textbox {
+    width: 60%;
+  }
+  .foryou .bigpicks .pickbox {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+  }
+  .foryou .bigpicks .shopbigbox .buy {
+    position: relative;
+    overflow: hidden;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hoverbox {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .heart {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 5px 9px;
+    background-color: #fff;
+    border-radius: 22px;
+    font-size: 18px;
+    color: #000;
+  }
+  .foryou .bigpicks .shopbigbox .buy .off {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a {
+    text-decoration: none;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a:hover {
+    background-color: #769881;
+    color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
+    padding: 6px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 1px;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
+    padding: 6px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hovertext a {
+    visibility: visible;
+    opacity: 1;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hoverbox {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .foryou .bigpicks .shopbigbox .text {
+    padding: 10px 20px;
+  }
+  .foryou .bigpicks .shopbigbox .text .blue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #bedce3;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .brown {
+    display: inline-block;
+    background-color: #866953;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .lightblue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #8db4d2;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .pink {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffd1dc;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #808080;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text p:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h6 {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text h6:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 span {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .mostloved .bigmost {
+    padding: 0;
+  }
+  .mostloved .bigmost .text {
+    width: 70%;
+  }
+  .mostloved .bigmost .pics .textmost a {
+    font-weight: 300;
+  }
+  .mostloved .bigmost .pics .textmost a i {
+    margin-left: 9rem;
+  }
+  .mostloved .bigmost .picssecond {
+    display: none;
+  }
+  .news .top {
+    width: 100%;
+  }
+  .news .top .toptext h1 {
+    font-size: 2.5rem;
+  }
+  .news .top .toptext span {
+    font-size: 13px;
+  }
+  .news .top input {
+    width: 90%;
+    display: block;
+    margin-left: 25px;
+  }
+  .news .top a {
+    margin-top: 10px;
+    width: 90%;
+  }
+  .news .bottext {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  .news .bottext .boxi {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .byshop .bigimgs .boximg .display {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

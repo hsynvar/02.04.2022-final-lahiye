@@ -1,0 +1,1221 @@
+@import '_variable';
+// @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+.homepg{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #E4DDD7;
+    background-image: url("../photo/homeimage1.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .texthome{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        img{
+            margin-left: 16.5rem;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 300;
+            font-family: 'Jost', sans-serif;
+        }
+        h2{
+            font-family: 'Jost', sans-serif;
+
+            strong{
+                font-size: 5rem;
+                font-weight: 100;
+            }
+            span{
+                span{
+                    font-size: 8rem;
+                    color: $green;
+                }
+            }
+        }
+        a{
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 17px;
+            text-decoration: none;
+            padding: 15px 4rem;
+            background-color: $black;
+            color: white;
+            font-family: 'Jost', sans-serif;
+            transition: 0.5s;
+            &:hover{
+                background-color: $green;
+            }
+        }
+    }
+}
+// section homepg end 
+// -------------------
+// section byshop start 
+.byshop{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    h1{
+    margin: 3rem 0;
+    }
+    .bigimgs{
+        width: 95%;
+        margin: auto;
+        .boximg{
+            position: relative;
+            transition: 0.8s;
+            font-size: 20px;
+         .slide{
+                position: absolute;
+                top: 40%;
+                left: 2%;
+                i{
+                    padding: 10px;
+                    background-color: #fff;
+                    border-radius: 22px;
+                    transition: 0.4s;
+                }
+                &:hover{
+                    i{
+                    background-color: $green;
+                    color: #fff;
+                    }
+                }
+            }
+            .men{
+                position: absolute;
+                bottom: 5%;
+                left: 3%;
+                a{
+                    text-align: left;
+                    text-decoration: none;
+                    color: $black;
+                    padding: 15px;
+                    background-color: #fff;
+                    transition: 0.4s;
+                    &:hover{
+                        
+                     background-color: $green;
+                     color:$white;
+                          i{
+                                color: $green;
+                            }
+                    }
+    
+                    i{
+                        padding: 8px;
+                        color: $black;
+                        border-radius: 18px;
+                        background-color: #fff;
+                        margin-left: 10rem;
+                    }
+                }
+            }
+       &:hover{
+           transform: scale(1.03);          
+         }
+       } 
+    //    boximg end 
+       .boximgwmn{
+        position: relative;
+        transition: 0.8s;
+        font-size: 20px;
+        .wmn{
+            position: absolute;
+            bottom: 5%;
+            left: 3%;
+            a{
+                text-align: left;
+                text-decoration: none;
+                color: $black;
+                background-color: #ffffff;
+                font-size: 19px;
+                padding: 14px;
+                transition: 0.4s;
+                &:hover{ 
+                    background-color: $green;
+                    color:$white;
+                    i{
+                        color: $green;
+                    }
+                 }
+                
+                i{
+                    padding: 7px;
+                    color: $black;
+                    border-radius: 18px;
+                    background-color: #fff;
+                    margin-left: 6rem;
+                }
+            }
+        }
+        &:hover{
+            transform: scale(1.03); 
+          }
+       }
+    //   boximgwmn end 
+      .boximgtop{
+        position: relative;
+        transition: 0.8s;
+        font-size: 20px;
+        .men{
+            position: absolute;
+            bottom: 5%;
+            left: 3%;
+            a{
+                text-align: left;
+                text-decoration: none;
+                color: $black;
+                padding: 15px;
+                background-color: #fff;
+                transition: 0.4s;
+                &:hover{
+                    
+                        background-color: $green;
+                        color:$white;
+                        i{
+                            color: $green;
+                        }
+                }
+
+                i{
+                    padding: 8px;
+                    color: $black;
+                    border-radius: 18px;
+                    background-color: #fff;
+                    margin-left: 8rem;
+                }
+            }
+        }
+        .slidewoman{
+            position: absolute;
+            top: 40%;
+            right: 2%;
+
+            i{
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 20px;
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                background-color: $green;
+                color: #fff;
+                }
+            }
+        }
+        &:hover{
+            transform: scale(1.03);
+           
+          }
+      }
+    //   boximgtop end 
+    } 
+ }
+//  section byshop end  
+// --------------- 
+// section category start 
+.shcategory{
+    width: 100%;
+    height: 180vh;
+    font-family: 'Jost', sans-serif;
+    .allbox{
+        .textbox{
+            width: 45%;
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 3rem;
+                margin-bottom: 15px;
+            }
+            ul{
+                margin-left: 4rem;
+                li{
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        margin-left: 25px;
+                        color: $lightgray;
+                        font-size: 19px;
+                        transition: 0.2s;
+                        &:hover{
+                            border-bottom: 3px solid $black;
+                            padding-bottom: 3px;
+                            color: $black;
+                        }
+                    }
+                    .all{
+                        color: $black;
+                        border-bottom: 3px solid $black;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+        // textbox end 
+        .shopbox{
+            .shopbigbox{
+                margin-top: 20px;
+                overflow: hidden;
+                border:  1px solid rgba(128, 128, 128, 0.144);
+                .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 4%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            padding: 9px 18px;
+                            margin: 0 2px;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 13px;
+                        }
+                        .refresh{
+                            padding: 8px 10px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+            //  buy end 
+            .text{
+                padding: 25px;
+                .blue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $lightblue;
+                    border-radius: 10px;
+                }
+                .brown{
+                    display: inline-block;
+                    background-color: $brown;
+                    padding: 8px;
+                    border-radius: 10px;
+                }
+                .lightblue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $blue;
+                    border-radius: 10px;
+                }
+                .pink{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $pink;
+                    border-radius: 10px;
+                }
+                .gray{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $gray;
+                    border-radius: 10px;
+                }
+                .black{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $black;
+                    border-radius: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+         }
+        }
+        .shopall{
+            width: 25%;
+            margin: auto;
+            a{
+                text-align: center;
+                display: block;
+                margin-top: 3rem;
+                text-decoration: none;
+                background-color: $black;
+                color: $white;
+                padding: 15px;
+                font-size: 18px;
+                transition: 0.4s;
+                i{
+                    margin-left: 10px;
+                }
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}
+// shcategory section end 
+// ----------------------- 
+.saleoff{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../photo/homebackgr.png);
+    .boxsale{
+        padding-top: 2rem;
+    }
+    .textsale{
+        padding-top: 3rem ;
+        p{
+            font-size: 2.5rem;
+            display: block;
+            font-weight: 300;
+            span{
+                font-size: 7rem;
+                font-weight: 700;
+            }
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 13px 40px;
+            background-color: $green;
+            color: $white;
+            font-size: 22px;
+            font-family: 'Jost', sans-serif;
+        }
+
+    }
+    .salemiddle{
+        margin:  5rem 0 0 8rem;
+        border-right: 4px solid rgba(128, 128, 128, 0.514);
+    }
+}
+// saleoff section end 
+// ----------------- 
+// foryou section start 
+.foryou{
+    margin-top: 7rem;
+    width: 100%;
+   height: 80vh;
+    .bigpicks{
+        padding: 0 4rem;
+        width: 100%;
+        position: relative;
+        .textbox{
+            width: 40%;
+            margin: auto;
+        }
+        .pickbox{
+            margin-top: 20px;
+            overflow: hidden;
+            border:  1px solid rgba(128, 128, 128, 0.144);
+            .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 4%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 8px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            padding: 9px 13px;
+                            margin: 0 1px;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 12px;
+                        }
+                        .refresh{
+                            padding: 8px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+             .text{
+                padding: 25px;
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 50%;
+            left: 0%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 50%;
+            right: 0%;
+            i{
+                padding: 15px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+            }
+        }
+    }
+}
+// foryou section end 
+// ------------------------
+// section mostloved start 
+.mostloved{
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
+    .bigmost{
+        width: 80%;
+        margin: auto;
+        position: relative;
+        padding: 0 4.5rem;
+        .text{
+            padding-top: 20px;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+        }
+        .pics{ 
+            margin-top: 20px;
+            overflow: hidden;
+            .imgbox{
+                position: relative;
+                overflow: hidden;
+                .hoverimg{
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 1.5s;
+                }
+            }
+           &:hover{
+            .hoverimg{
+                visibility: visible;
+                opacity: 1;
+                transform: scale(1.09);
+            }
+           } 
+           .textmost{
+               margin-top: 25px;
+               a{
+                   text-decoration: none;
+                   color: $textcolor;
+                   font-size: 25px;
+                   i{
+                    color: $black;
+                    margin-left:9rem;
+                    font-size: 15px;
+                   }
+               }
+           }
+        }
+        // first picture end 
+        .picssecond{ 
+            margin-top: 20px;
+            overflow: hidden;
+            .imgbox{
+                position: relative;
+                overflow: hidden;
+                .hoverimg{
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 1.5s;
+                }
+            }
+           &:hover{
+            .hoverimg{
+                visibility: visible;
+                opacity: 1;
+                transform: scale(1.09);
+            }
+           } 
+           .textmost{
+               margin-top: 25px;
+               a{
+                   text-decoration: none;
+                   color: $textcolor;
+                   font-size: 25px;
+                   i{
+                    color: $black;
+                    margin-left: 9rem;
+                    font-size: 15px;
+                   }
+               }
+           }
+        }
+        .arrowleft{
+            position: absolute;
+            bottom: 40%;
+            left: 1%;
+            i{
+                background-color: $white;
+                padding: 12px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+            }
+            &:hover{
+                i{
+                background-color: $green;
+                color: $white;
+
+
+                }
+                
+            }
+        }
+        .arrowright{
+            position: absolute;
+            bottom: 40%;
+            right: 1%;
+            i{
+                background-color: $white;
+                padding: 12px;
+                border-radius: 25px;
+                border:  1px solid rgba(128, 128, 128, 0.514);
+                transition: 0.4s;
+              
+            }
+            &:hover{
+                i{
+                background-color: $green;
+                color: $white;
+                }
+                
+            }
+        }
+
+    }
+}
+// mostloved end 
+// -------------
+.news{
+    width: 100%;
+    height: 80vh;
+    .top{
+        width: 90%;
+        height: 55vh;
+        margin: auto;
+        text-align: center;
+        border: 10px solid #D4D6E5;
+        padding: 50px 20px 80px 20px;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+        .toptext{
+            text-align: center;
+            h1{
+                margin-bottom: 20px;
+
+            }
+        }
+        input{
+            margin-top: 35px;
+            width: 45%;
+            padding: 20px 15px ;
+            border: 0.5px solid rgba(128, 128, 128, 0.452);
+            
+        }
+        a{
+            margin-left: 5px;
+            text-decoration: none;
+            padding: 20px 35px;
+            display: inline-block;
+            background-color: $green ;
+            color: $white;
+            transition: 0.5s ease;
+            font-weight: 300;
+            i{
+                margin-left: 5px;
+            }
+            &:hover{
+                background-color: $black;
+                color: $white;
+            }
+        }
+    }
+    .bottext{
+        width: 90%;
+        margin: 3rem auto;
+        .boxi{
+            position: relative;
+            .iconbox{
+                position: absolute;
+                top: 30%;
+                left: 0%;
+                i{
+                    font-size: 20px;
+                }
+            }
+            .textbox{
+                margin-left: 3rem;
+                h2{
+                    font-size: 24px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// responsive start 
+
+    @media (max-width: 576px)  {
+    .homepg{
+        background-image: url(../photo/homebackgr.png); 
+    }
+    // homepg end 
+    // ------------------
+    // byshop start 
+    .byshop{
+        height: 110vh;
+        font-family: 'Jost', sans-serif;
+        .bigimgs{ position: relative;
+            .boximg{
+                position: relative;
+                .men{
+                    a{
+                        font-size: 22px;
+                        padding: 15px 2rem 15px 15px;
+                        i{
+                            margin-left: 17rem;
+                        }
+                    }
+                }
+                .display{
+                    position: absolute;
+                    top: 40%;
+                    right: 2%;
+                    i{
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius: 18px;
+                        transition: 0.4s;
+                    }
+                    &:hover{
+                        i{
+                        background-color: $green;
+                        }
+                    }
+                }   
+            }
+            // boximg end 
+            .boximgwmn{
+                display: none;
+            }
+            .boximgtop{
+                display: none;
+            }
+        }  
+    }
+    // byshop end 
+    // -------------------
+    // section shcategory start 
+    .shcategory{
+        height: 860vh;
+        .allbox{
+            margin-top: 3rem;
+            .textbox{
+                width: 100%;
+                h1{
+                    font-size: 2rem;
+    
+                }
+                ul{ 
+                    margin-left: 5rem;
+                    li{
+                        a{
+                            &:hover{
+                                border-bottom: 3px solid $black;
+                                padding-bottom: 0;
+                            }
+    
+                        }
+                        .all{
+                            padding-bottom: 0%;
+                        }
+                    }
+                }
+            }
+            // textbox end 
+            // ----- 
+            // shopbox start 
+            .shopbox{
+                .shopbigbox{
+                    .buy{
+                       .hovertext{
+                           .eye{
+                               padding: 10px 17px;
+    
+                           }
+                           .opt{
+                               padding: 12px 8rem;
+                               text-align: center;
+    
+                           }
+                           .refresh{
+                               padding: 10px 15px;
+    
+                           }
+    
+                       }
+                    }
+                }
+            }
+            .shopall{
+                width: 50%;
+            }
+        }
+    }
+    // shcategory end 
+    // --------------- 
+    // saleoff start 
+    .saleoff{
+        height: 70vh;
+        background-color: #fff;
+        background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+        .boxsale{
+            display: none;
+        }
+        .salemiddle{ 
+            margin-top: 0;
+            margin-left: 30px;
+            border: none; 
+       }
+       .textsale{
+           padding-left: 20px;
+           p{
+               span{
+                   font-size: 4rem;
+               }
+           }
+       }
+    }
+    // saleoff section end 
+    // ---------- 
+    // foryou start 
+    .foryou{
+        width: 100%;
+        height: 80vh;
+        .bigpicks{
+            .textbox{
+                width: 60%;
+            }
+            .pickbox{
+                display: none;
+            }
+            .shopbigbox{
+                margin-top: 20px;
+                overflow: hidden;
+                border:  1px solid rgba(128, 128, 128, 0.144);
+                .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 4%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 6px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            display: inline-block;
+                            padding: 8px 12px;
+                            margin: 0 1px;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 10px;
+                        }
+                        .refresh{
+                            padding: 6px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+            //  buy end 
+            .text{
+                padding: 10px 20px;
+                .blue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $lightblue;
+                    border-radius: 10px;
+                }
+                .brown{
+                    display: inline-block;
+                    background-color: $brown;
+                    padding: 8px;
+                    border-radius: 10px;
+                }
+                .lightblue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $blue;
+                    border-radius: 10px;
+                }
+                .pink{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $pink;
+                    border-radius: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+         }
+        }
+    }
+    // foryou end 
+    // mostloved start 
+    .mostloved{
+        .bigmost{
+            padding: 0;
+            .text{
+                width: 70%;
+            }
+            .pics{
+                .textmost{
+                   a{
+                       font-weight: 300;
+                       i{
+                           margin-left: 9rem;
+                       }
+                   }
+                }
+            }
+            .picssecond{
+                display: none;
+            }
+        }
+    }
+    // mostloved end 
+    // ---- 
+    // news start 
+    .news{
+        .top{
+            width: 100%;
+            .toptext{
+                h1{
+                    font-size: 2.5rem;
+                }
+                span{
+                    font-size: 13px;
+                }
+    
+    
+            }
+            input{
+                width: 90%;
+                display: block;
+                margin-left: 25px;
+    
+            }
+            a{
+                margin-top: 10px;
+                width: 90%;
+            }
+        }
+        .bottext{
+            margin-top: 4rem;
+            width: 100%;
+          .boxi{
+              margin-top: 20px;
+          }   
+        }
+    }
+    // news end 
+    // ------- 
+    
+    }
+    @media (min-width: 576px) and ( max-width: 768px)
+    {
+    
+    }
+    @media (min-width: 768px) and ( max-width: 992px) {
+    
+    }
+    @media (min-width: 992px) and ( max-width: 1200px) {
+    
+    }
+    
+    @media (min-width: 1200px) and ( max-width: 1400px){
+    
+    }
+    @media (min-width: 576px) {
+        .byshop{
+            .bigimgs{
+                .boximg{
+                    .display{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .foryou{
+            .bigpicks{
+                .shopbigbox{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    
