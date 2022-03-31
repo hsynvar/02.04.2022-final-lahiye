@@ -57,8 +57,9 @@
 // -------------------
 // section byshop start 
 .byshop{
+    margin-top: 3rem;
     width: 100%;
-    height: 100vh;
+    // height: 100vh;
     text-align: center;
     font-family: 'Jost', sans-serif;
     h1{
@@ -224,7 +225,8 @@
 // section category start 
 .shcategory{
     width: 100%;
-    height: 180vh;
+    margin: 5rem 0;
+    // height: 180vh;
     font-family: 'Jost', sans-serif;
     .allbox{
         .textbox{
@@ -437,7 +439,7 @@
 // ----------------------- 
 .saleoff{
     width: 100%;
-    height: 80vh;
+    // height: 80vh;
     background-image: url(../photo/homebackgr.png);
     .boxsale{
         padding-top: 2rem;
@@ -466,7 +468,7 @@
     }
     .salemiddle{
         margin:  5rem 0 0 8rem;
-        border-right: 4px solid rgba(128, 128, 128, 0.514);
+        border-right: 3px solid rgba(128, 128, 128, 0.185);
     }
 }
 // saleoff section end 
@@ -475,7 +477,7 @@
 .foryou{
     margin-top: 7rem;
     width: 100%;
-   height: 80vh;
+//    height: 80vh;
     .bigpicks{
         padding: 0 4rem;
         width: 100%;
@@ -483,6 +485,7 @@
         .textbox{
             width: 40%;
             margin: auto;
+            text-align: center;
         }
         .pickbox{
             margin-top: 20px;
@@ -615,14 +618,135 @@
                 border:  1px solid rgba(128, 128, 128, 0.514);
             }
         }
+
+        // responsive box netbook
+        
+        .picnetbook{
+            margin-top: 20px;
+            overflow: hidden;
+            border:  1px solid rgba(128, 128, 128, 0.144);
+            .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 5%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 15px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            display: inline-block;
+                            width: 40%;
+                            text-align: center;
+                            padding: 1px 0 13px 0;
+                            margin: 0 1px;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 13px;
+                        }
+                        .refresh{
+                            padding: 13px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+             .text{
+                padding: 15px;
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        
+   
     }
 }
 // foryou section end 
 // ------------------------
 // section mostloved start 
 .mostloved{
+
+    margin-top: 3rem;
     width: 100%;
-    height: 100vh;
+    // height: 100vh;
     background-color: transparent;
     background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
     .bigmost{
@@ -761,7 +885,8 @@
 // -------------
 .news{
     width: 100%;
-    height: 80vh;
+    margin: 3rem 0;
+    // height: 80vh;
     .top{
         width: 90%;
         height: 55vh;
@@ -834,11 +959,8 @@
 
 
 
-
-
-
-
-// responsive start 
+// RESPONSIVE START
+// Telefon 
 
     @media (max-width: 576px)  {
     .homepg{
@@ -848,7 +970,7 @@
     // ------------------
     // byshop start 
     .byshop{
-        height: 110vh;
+        // height: 110vh;
         font-family: 'Jost', sans-serif;
         .bigimgs{ position: relative;
             .boximg{
@@ -892,17 +1014,20 @@
     // -------------------
     // section shcategory start 
     .shcategory{
-        height: 860vh;
+        // height: 860vh;
         .allbox{
             margin-top: 3rem;
             .textbox{
-                width: 100%;
+                width: 60%;
+                margin: auto;
+                text-align: center;
                 h1{
                     font-size: 2rem;
     
                 }
                 ul{ 
-                    margin-left: 5rem;
+                    text-align: center;
+                    margin-left: 4rem;
                     li{
                         a{
                             &:hover{
@@ -951,7 +1076,7 @@
     // --------------- 
     // saleoff start 
     .saleoff{
-        height: 70vh;
+        // height: 70vh;
         background-color: #fff;
         background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
         .boxsale{
@@ -976,7 +1101,7 @@
     // foryou start 
     .foryou{
         width: 100%;
-        height: 80vh;
+        // height: 80vh;
         .bigpicks{
             .textbox{
                 width: 60%;
@@ -1121,6 +1246,9 @@
                 }
             }
          }
+         .picnetbook{
+             display: none;
+         }
         }
     }
     // foryou end 
@@ -1183,23 +1311,767 @@
     }
     // news end 
     // ------- 
-    
     }
-    @media (min-width: 576px) and ( max-width: 768px)
-    {
+
+// ------------------------ 
+// PLANSHET
+
+    @media (min-width: 576px) and ( max-width: 768px){
+        .homepg{
+            background-image: url(../photo/homebackgr.png); 
+        }
+        // homepage end 
+        // ----- 
+        // byshop start 
+        .byshop{
+            // height: 110vh;
+            font-family: 'Jost', sans-serif;
+            .bigimgs{ position: relative;
+                .boximg{
+                    position: relative;
+                    .men{
+                        a{
+                            font-size: 22px;
+                            padding: 15px 3rem 15px 15px;
+                            i{
+                                margin-left: 16rem;
+                            }
+                        }
+                    }
+                    .display{
+                        position: absolute;
+                        top: 40%;
+                        right: 2%;
+                        i{
+                            padding: 10px;
+                            background-color: #fff;
+                            border-radius: 18px;
+                            transition: 0.4s;
+                        }
+                        &:hover{
+                            i{
+                            background-color: $green;
+                            }
+                        }
+                    }   
+                }
+                // boximg end 
+                .boximgwmn{
+                    display: none;
+                }
+                .boximgtop{
+                    display: none;
+                }
+            }  
+        }
+        // ---- 
+        .shcategory{
+            // height: 860vh;
+            .allbox{
+                margin-top: 3rem;
+                .textbox{
+                    width: 100%;
+                    h1{
+                        font-size: 2rem;
+        
+                    }
+                    ul{ 
+                        margin-left: 5rem;
+                        li{
+                            a{
+                                &:hover{
+                                    border-bottom: 3px solid $black;
+                                    padding-bottom: 0;
+                                }
+        
+                            }
+                            .all{
+                                padding-bottom: 0%;
+                            }
+                        }
+                    }
+                }
+                // textbox end 
+                // ----- 
+                // shopbox start 
+                .shopbox{
+                    .shopbigbox{
+                        .buy{
+                           .hovertext{
+                               margin-left: 2rem;
+                               .eye{
+                                   padding: 10px 20px;
+        
+                               }
+                               .opt{
+                                   padding: 12px 5rem;
+                                   text-align: center;
+
+                               }
+                               .refresh{
+                                   padding: 10px 20px;
     
+                               }
+                           }
+                        }
+                    }
+                }
+                .shopall{
+                    width: 50%;
+                }
+            }
+        }
+        // ------ 
+        .saleoff{
+            // height: 70vh;
+            background-color: #fff;
+            background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+            .boxsale{
+                display: none;
+            }
+            .salemiddle{ 
+                margin-top: 0;
+                margin-left: 30px;
+                border: none; 
+           }
+           .textsale{
+               padding-left: 20px;
+               p{
+                   span{
+                       font-size: 4rem;
+                   }
+               }
+           }
+        }
+        // ----- 
+         // foryou start 
+       .foryou{
+        width: 100%;
+        // height: 80vh;
+        .bigpicks{
+            width: 100%;
+            
+            .textbox{
+                width: 60%;
+            }
+            .pickbox{
+                display: none;
+            }
+            .shopbigbox{
+                height: 60vh;
+                margin-top: 20px;
+                overflow: hidden;
+                border:  1px solid rgba(128, 128, 128, 0.144);
+                .buy{
+                position: relative;
+                overflow: hidden;
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 4%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            padding: 9px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            display: inline-block;
+                            padding: 10px 25px;
+                            margin: 0 1px;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 10px;
+                        }
+                        .refresh{
+                            padding:  9px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+            //  buy end 
+            .text{
+                padding: 10px 20px;
+                .blue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $lightblue;
+                    border-radius: 10px;
+                }
+                .brown{
+                    display: inline-block;
+                    background-color: $brown;
+                    padding: 8px;
+                    border-radius: 10px;
+                }
+                .lightblue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $blue;
+                    border-radius: 10px;
+                }
+                .pink{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $pink;
+                    border-radius: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+         }
+         .arrowleft{
+             left: 12%;
+             bottom: 43%;
+         }
+         .arrowright{
+             right: 12%;
+             bottom: 43%;
+         }
+         .picnetbook{
+            display: none;
+        }
+        }
+       }
+    // foryou end 
+    //    ------ 
+       .mostloved{
+           width: 100%;
+           .bigmost{
+               width: 100%;
+               padding: 0 15px;
+               .pics{
+                   .textmost{
+                       a{
+                           font-size: 18px;
+
+                        i{
+                            margin-left: 15rem;
+                        }
+                       }  
+                   }
+               }
+               .picssecond{
+                   display: none;
+               }
+               .arrowleft{
+                   left: 5%;
+               }
+               .arrowright{
+                   right: 5%;
+               }
+           }
+       }
     }
+    // -------------------------------- 
+
+    // NETBOOK 
     @media (min-width: 768px) and ( max-width: 992px) {
+        .homepg{
+            background-image: url(../photo/homebackgr.png); 
+        }
+        // homepage end 
+        // ----- 
+        // byshop start 
+        .byshop{
+            // height: 110vh;
+            font-family: 'Jost', sans-serif;
+            .bigimgs{ position: relative;
+                .boximg{
+                    position: relative;
+                    .men{
+                        a{
+                            font-size: 22px;
+                            padding: 15px 4rem 15px 15px;
+                            i{
+                                margin-left: 22rem;
+                            }
+                        }
+                    }
+                    .display{
+                        position: absolute;
+                        top: 40%;
+                        right: 2%;
+                        i{
+                            padding: 10px;
+                            background-color: #fff;
+                            border-radius: 18px;
+                            transition: 0.4s;
+                        }
+                        &:hover{
+                            i{
+                            background-color: $green;
+                            }
+                        }
+                    }   
+                }
+                // boximg end 
+                .boximgwmn{
+                    display: none;
+                }
+                .boximgtop{
+                    display: none;
+                }
+            }  
+        }
+        // ---- 
+        .shcategory{
+            // height: 860vh;
+            .allbox{
+                margin-top: 3rem;
+                .textbox{
+                    width: 100%;
+                    h1{
+                        font-size: 2rem;
+        
+                    }
+                    ul{ 
+                        margin-left: 5rem;
+                        li{
+                            a{
+                                &:hover{
+                                    border-bottom: 3px solid $black;
+                                    padding-bottom: 0;
+                                }
+        
+                            }
+                            .all{
+                                padding-bottom: 0%;
+                            }
+                        }
+                    }
+                }
+                // textbox end 
+                // ----- 
+                // shopbox start 
+                .shopbox{
+                    .shopbigbox{
+                        .buy{
+                           .hovertext{
+                               margin-left: 2rem;
+                               .eye{
+                                   padding: 10px 25px;
+        
+                               }
+                               .opt{
+                                   padding: 12px 10rem;
+                                   text-align: center;
+
+                               }
+                               .refresh{
+                                   padding: 10px 25px;
+    
+                               }
+                           }
+                        }
+                    }
+                }
+                .shopall{
+                    width: 50%;
+                }
+            }
+        }
+        // ------ 
+        .saleoff{
+            position: relative;
+            height: 40vh;
+            background-color: #fff;
+            background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+            .boxsale{
+                display: none;
+            }
+            .salemiddle{ 
+                position: absolute;
+                top: 0%;
+                left: 7%;
+                padding-right: 35px; 
+           }
+           .textsale{
+               position: absolute;
+               top: 0%;
+               right: 10%;
+               padding-left: 20px;
+               p{
+                   span{
+                       width: 60%;
+                   }
+               }
+           }
+        }
+        // ----- 
+         // foryou start 
+       .foryou{
+        // position: relative;
+        width: 100%;
+        // height: 80vh;
+        .bigpicks{
+            width: 100%;
+            .textbox{
+                width: 60%;
+            }
+            .pickbox{
+                display: none;
+            }
+            .shopbigbox{
+                display: inline-block;
+                margin-top: 20px;
+                overflow: hidden;
+                border:  1px solid rgba(128, 128, 128, 0.144);
+                .buy{
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+
+                    .hoverbox{
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 1.5s;
+                    }
+                    .heart{
+                        display: block;
+                        position: absolute;
+                        right: 5%;
+                        top: 4%;
+                        padding: 5px 9px ;
+                        background-color: $white;
+                        border-radius: 22px;
+                        font-size: 18px;
+                        color: $black;
+                    }
+                    .off{
+                        position: absolute;
+                        top: 5%;
+                        left: 4%;
+                        padding: 8px 10px;
+                        background-color: $black;
+                        color: $white;
+                        font-size: 11px;
+                    }
+                    .hovertext{
+                        position: absolute;
+                        bottom: 3%;
+                        left: 5%;
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            visibility: hidden;
+                            opacity: 0;
+                           transition: 0.5s;
+                           &:hover{
+                               background-color: $green;
+                               color: $white;
+                           }
+                        }
+                        .eye{
+                            display: inline-block;
+                            margin-bottom: 2px;
+                            padding:13px;
+                            background-color: $white;
+                        }
+                        .opt{
+                            width: 40%;
+                            text-align: center;
+                            display: inline-block;
+                            margin: 0 1px;
+                            padding: 1px 0 15px 0;
+                            background-color: $white;
+                            font-weight: bold;
+                            font-size: 13px;
+                        }
+                        .refresh{
+                            padding:13px;
+                            background-color: $white;
+                        }   
+                    }
+                }
+                 &:hover{
+                 .hovertext{
+                     a{
+                         visibility: visible;
+                         opacity: 1;
+                     }
+                 }
+                 .hoverbox{
+                     visibility: visible;
+                     opacity: 1;
+                     transform: scale(1.2);
+                 }
+             }
+            //  buy end 
+            .text{
+                padding: 10px 20px;
+                .blue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $lightblue;
+                    border-radius: 10px;
+                }
+                .brown{
+                    display: inline-block;
+                    background-color: $brown;
+                    padding: 8px;
+                    border-radius: 10px;
+                }
+                .lightblue{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $blue;
+                    border-radius: 10px;
+                }
+                .pink{
+                    display: inline-block;
+                    padding: 8px;
+                    background-color: $pink;
+                    border-radius: 10px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: $gray;
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h6{
+                    transition: 0.4s;
+                    &:hover{
+                        color: $hoverred;
+                    }
+                }
+                h5{
+                    margin-top: 15px;
+                    font-size: 17px;
+                    span{
+                        text-decoration: line-through;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+         }
+         .picnetbook{
+             display: inline-block;
+            //  width: 30%;
+            //  position: absolute;
+            //  top: 10%;
+            //  left: 5%;
+         }
+        }
+       }
+    //    ----  
+        .mostloved{
+            width: 100%;
+            .bigmost{
+                width: 100%;
+                padding: 0 15px;
+                // position: relative;
+             
+                .pics{
+                    display: inline-block;
+                    .textmost{
+                        width: 60%;
+                        a{
+                            font-size: 22px;
+ 
+                         i{
+                             margin-left: 15px;
+                         }
+                        }  
+                    }
+                }
+                .picssecond{
+                    display: inline-block;
+                    // position: absolute;
+                    // top: 15%;
+                    // right: 3%;
+                    img{
+                        // height: 40vh;
+
+                    }
+                    .textmost{
+                        width: 60%;
+                        a{
+                        font-size: 22px;
+                        i{
+                            margin-left: 15px;
+                        }
+                        }
+                    }
+                    
+                }
+                .arrowleft{
+                    left: 5%;
+                }
+                .arrowright{
+                    right: 5%;
+                }
+            }
+        }
+
+
+    
+       
     
     }
+    // ---- 
+    // XL
     @media (min-width: 992px) and ( max-width: 1200px) {
+        .homepg{
+            background-image: url(../photo/homebackgr.png); 
+        }
+        // --- 
+        .byshop{
+            .bigimgs{
+                .boximg{
+                    .men{
+                        a{
+                            i{
+                                margin-left: 5rem;
     
+                            }
+                        }
+
+                    } 
+                }
+                // --- 
+                .boximgwmn{
+                    .wmn{
+                        a{
+                            i{
+                                margin-left: 2rem;
+                            }
+                        }
+                    }
+                }
+                // --- 
+                .boximgtop{
+                        .men{
+                            a{
+                                i{
+                                    margin-left: 2rem;
+                                }
+                            }
+
+                        }
+                    
+                }
+            }
+        }
+        // ----- 
+        .saleoff{
+            position: relative;
+            height: 40vh;
+            background-color: #fff;
+            background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+            .boxsale{
+                display: none;
+            }
+            .salemiddle{ 
+                position: absolute;
+                top: 0%;
+                left: 14%;
+                padding-right: 35px; 
+           }
+           .textsale{
+               position: absolute;
+               top: 0%;
+               right: 12%;
+               padding-left: 20px;
+               p{
+                   span{
+                       width: 60%;
+                   }
+               }
+           }
+        }
     }
     
     @media (min-width: 1200px) and ( max-width: 1400px){
     
     }
-    @media (min-width: 576px) {
+    @media (min-width: 992px) {
         .byshop{
             .bigimgs{
                 .boximg{
@@ -1212,6 +2084,9 @@
         .foryou{
             .bigpicks{
                 .shopbigbox{
+                    display: none;
+                }
+                .picnetbook{
                     display: none;
                 }
             }

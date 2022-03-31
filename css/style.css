@@ -58,8 +58,8 @@
 }
 
 .byshop {
+  margin-top: 3rem;
   width: 100%;
-  height: 100vh;
   text-align: center;
   font-family: 'Jost', sans-serif;
 }
@@ -249,7 +249,7 @@
 
 .shcategory {
   width: 100%;
-  height: 180vh;
+  margin: 5rem 0;
   font-family: 'Jost', sans-serif;
 }
 
@@ -492,7 +492,6 @@
 
 .saleoff {
   width: 100%;
-  height: 80vh;
   background-image: url(../photo/homebackgr.png);
 }
 
@@ -527,13 +526,12 @@
 
 .saleoff .salemiddle {
   margin: 5rem 0 0 8rem;
-  border-right: 4px solid rgba(128, 128, 128, 0.514);
+  border-right: 3px solid rgba(128, 128, 128, 0.185);
 }
 
 .foryou {
   margin-top: 7rem;
   width: 100%;
-  height: 80vh;
 }
 
 .foryou .bigpicks {
@@ -545,6 +543,7 @@
 .foryou .bigpicks .textbox {
   width: 40%;
   margin: auto;
+  text-align: center;
 }
 
 .foryou .bigpicks .pickbox {
@@ -703,9 +702,144 @@
   border: 1px solid rgba(128, 128, 128, 0.514);
 }
 
-.mostloved {
+.foryou .bigpicks .picnetbook {
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.foryou .bigpicks .picnetbook .buy {
+  position: relative;
+  overflow: hidden;
+}
+
+.foryou .bigpicks .picnetbook .buy .hoverbox {
+  position: absolute;
+  top: 0%;
+  left: 0%;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.foryou .bigpicks .picnetbook .buy .heart {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  padding: 5px 9px;
+  background-color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+}
+
+.foryou .bigpicks .picnetbook .buy .off {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  padding: 8px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 11px;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext {
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext a {
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext a:hover {
+  background-color: #769881;
+  color: #fff;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext .eye {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext .opt {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  padding: 1px 0 13px 0;
+  margin: 0 1px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.foryou .bigpicks .picnetbook .buy .hovertext .refresh {
+  padding: 13px;
+  background-color: #fff;
+}
+
+.foryou .bigpicks .picnetbook:hover .hovertext a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.foryou .bigpicks .picnetbook:hover .hoverbox {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.foryou .bigpicks .picnetbook .text {
+  padding: 15px;
+}
+
+.foryou .bigpicks .picnetbook .text p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #808080;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryou .bigpicks .picnetbook .text p:hover {
+  color: #f03d3F;
+}
+
+.foryou .bigpicks .picnetbook .text h6 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foryou .bigpicks .picnetbook .text h6:hover {
+  color: #f03d3F;
+}
+
+.foryou .bigpicks .picnetbook .text h5 {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.foryou .bigpicks .picnetbook .text h5 span {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.mostloved {
+  margin-top: 3rem;
+  width: 100%;
   background-color: transparent;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #FFFFFF), color-stop(0%, #FCF5EA));
   background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
@@ -857,7 +991,7 @@
 
 .news {
   width: 100%;
-  height: 80vh;
+  margin: 3rem 0;
 }
 
 .news .top {
@@ -942,7 +1076,6 @@
     background-image: url(../photo/homebackgr.png);
   }
   .byshop {
-    height: 110vh;
     font-family: 'Jost', sans-serif;
   }
   .byshop .bigimgs {
@@ -979,20 +1112,20 @@
   .byshop .bigimgs .boximgtop {
     display: none;
   }
-  .shcategory {
-    height: 860vh;
-  }
   .shcategory .allbox {
     margin-top: 3rem;
   }
   .shcategory .allbox .textbox {
-    width: 100%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
   }
   .shcategory .allbox .textbox h1 {
     font-size: 2rem;
   }
   .shcategory .allbox .textbox ul {
-    margin-left: 5rem;
+    text-align: center;
+    margin-left: 4rem;
   }
   .shcategory .allbox .textbox ul li a:hover {
     border-bottom: 3px solid #000;
@@ -1015,7 +1148,6 @@
     width: 50%;
   }
   .saleoff {
-    height: 70vh;
     background-color: #fff;
     background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
   }
@@ -1035,7 +1167,6 @@
   }
   .foryou {
     width: 100%;
-    height: 80vh;
   }
   .foryou .bigpicks .textbox {
     width: 60%;
@@ -1180,6 +1311,9 @@
     margin-left: 5px;
     font-weight: normal;
   }
+  .foryou .bigpicks .picnetbook {
+    display: none;
+  }
   .mostloved .bigmost {
     padding: 0;
   }
@@ -1222,11 +1356,629 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
+  .homepg {
+    background-image: url(../photo/homebackgr.png);
+  }
+  .byshop {
+    font-family: 'Jost', sans-serif;
+  }
+  .byshop .bigimgs {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg .men a {
+    font-size: 22px;
+    padding: 15px 3rem 15px 15px;
+  }
+  .byshop .bigimgs .boximg .men a i {
+    margin-left: 16rem;
+  }
+  .byshop .bigimgs .boximg .display {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+  }
+  .byshop .bigimgs .boximg .display i {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 18px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .byshop .bigimgs .boximg .display:hover i {
+    background-color: #769881;
+  }
+  .byshop .bigimgs .boximgwmn {
+    display: none;
+  }
+  .byshop .bigimgs .boximgtop {
+    display: none;
+  }
+  .shcategory .allbox {
+    margin-top: 3rem;
+  }
+  .shcategory .allbox .textbox {
+    width: 100%;
+  }
+  .shcategory .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .shcategory .allbox .textbox ul {
+    margin-left: 5rem;
+  }
+  .shcategory .allbox .textbox ul li a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+  }
+  .shcategory .allbox .textbox ul li .all {
+    padding-bottom: 0%;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext {
+    margin-left: 2rem;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+    padding: 10px 20px;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
+    padding: 12px 5rem;
+    text-align: center;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+    padding: 10px 20px;
+  }
+  .shcategory .allbox .shopall {
+    width: 50%;
+  }
+  .saleoff {
+    background-color: #fff;
+    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+  }
+  .saleoff .boxsale {
+    display: none;
+  }
+  .saleoff .salemiddle {
+    margin-top: 0;
+    margin-left: 30px;
+    border: none;
+  }
+  .saleoff .textsale {
+    padding-left: 20px;
+  }
+  .saleoff .textsale p span {
+    font-size: 4rem;
+  }
+  .foryou {
+    width: 100%;
+  }
+  .foryou .bigpicks {
+    width: 100%;
+  }
+  .foryou .bigpicks .textbox {
+    width: 60%;
+  }
+  .foryou .bigpicks .pickbox {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    height: 60vh;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+  }
+  .foryou .bigpicks .shopbigbox .buy {
+    position: relative;
+    overflow: hidden;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hoverbox {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .heart {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 5px 9px;
+    background-color: #fff;
+    border-radius: 22px;
+    font-size: 18px;
+    color: #000;
+  }
+  .foryou .bigpicks .shopbigbox .buy .off {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a {
+    text-decoration: none;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a:hover {
+    background-color: #769881;
+    color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
+    padding: 9px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0 1px;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
+    padding: 9px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hovertext a {
+    visibility: visible;
+    opacity: 1;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hoverbox {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .foryou .bigpicks .shopbigbox .text {
+    padding: 10px 20px;
+  }
+  .foryou .bigpicks .shopbigbox .text .blue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #bedce3;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .brown {
+    display: inline-block;
+    background-color: #866953;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .lightblue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #8db4d2;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .pink {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffd1dc;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #808080;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text p:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h6 {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text h6:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 span {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .foryou .bigpicks .arrowleft {
+    left: 12%;
+    bottom: 43%;
+  }
+  .foryou .bigpicks .arrowright {
+    right: 12%;
+    bottom: 43%;
+  }
+  .foryou .bigpicks .picnetbook {
+    display: none;
+  }
+  .mostloved {
+    width: 100%;
+  }
+  .mostloved .bigmost {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .mostloved .bigmost .pics .textmost a {
+    font-size: 18px;
+  }
+  .mostloved .bigmost .pics .textmost a i {
+    margin-left: 15rem;
+  }
+  .mostloved .bigmost .picssecond {
+    display: none;
+  }
+  .mostloved .bigmost .arrowleft {
+    left: 5%;
+  }
+  .mostloved .bigmost .arrowright {
+    right: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .homepg {
+    background-image: url(../photo/homebackgr.png);
+  }
+  .byshop {
+    font-family: 'Jost', sans-serif;
+  }
+  .byshop .bigimgs {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg {
+    position: relative;
+  }
+  .byshop .bigimgs .boximg .men a {
+    font-size: 22px;
+    padding: 15px 4rem 15px 15px;
+  }
+  .byshop .bigimgs .boximg .men a i {
+    margin-left: 22rem;
+  }
+  .byshop .bigimgs .boximg .display {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+  }
+  .byshop .bigimgs .boximg .display i {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 18px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .byshop .bigimgs .boximg .display:hover i {
+    background-color: #769881;
+  }
+  .byshop .bigimgs .boximgwmn {
+    display: none;
+  }
+  .byshop .bigimgs .boximgtop {
+    display: none;
+  }
+  .shcategory .allbox {
+    margin-top: 3rem;
+  }
+  .shcategory .allbox .textbox {
+    width: 100%;
+  }
+  .shcategory .allbox .textbox h1 {
+    font-size: 2rem;
+  }
+  .shcategory .allbox .textbox ul {
+    margin-left: 5rem;
+  }
+  .shcategory .allbox .textbox ul li a:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+  }
+  .shcategory .allbox .textbox ul li .all {
+    padding-bottom: 0%;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext {
+    margin-left: 2rem;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
+    padding: 10px 25px;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
+    padding: 12px 10rem;
+    text-align: center;
+  }
+  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
+    padding: 10px 25px;
+  }
+  .shcategory .allbox .shopall {
+    width: 50%;
+  }
+  .saleoff {
+    position: relative;
+    height: 40vh;
+    background-color: #fff;
+    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+  }
+  .saleoff .boxsale {
+    display: none;
+  }
+  .saleoff .salemiddle {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    padding-right: 35px;
+  }
+  .saleoff .textsale {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    padding-left: 20px;
+  }
+  .saleoff .textsale p span {
+    width: 60%;
+  }
+  .foryou {
+    width: 100%;
+  }
+  .foryou .bigpicks {
+    width: 100%;
+  }
+  .foryou .bigpicks .textbox {
+    width: 60%;
+  }
+  .foryou .bigpicks .pickbox {
+    display: none;
+  }
+  .foryou .bigpicks .shopbigbox {
+    display: inline-block;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+  }
+  .foryou .bigpicks .shopbigbox .buy {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hoverbox {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .heart {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 5px 9px;
+    background-color: #fff;
+    border-radius: 22px;
+    font-size: 18px;
+    color: #000;
+  }
+  .foryou .bigpicks .shopbigbox .buy .off {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a {
+    text-decoration: none;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext a:hover {
+    background-color: #769881;
+    color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
+    display: inline-block;
+    margin-bottom: 2px;
+    padding: 13px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 1px;
+    padding: 1px 0 15px 0;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
+    padding: 13px;
+    background-color: #fff;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hovertext a {
+    visibility: visible;
+    opacity: 1;
+  }
+  .foryou .bigpicks .shopbigbox:hover .hoverbox {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .foryou .bigpicks .shopbigbox .text {
+    padding: 10px 20px;
+  }
+  .foryou .bigpicks .shopbigbox .text .blue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #bedce3;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .brown {
+    display: inline-block;
+    background-color: #866953;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .lightblue {
+    display: inline-block;
+    padding: 8px;
+    background-color: #8db4d2;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text .pink {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffd1dc;
+    border-radius: 10px;
+  }
+  .foryou .bigpicks .shopbigbox .text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #808080;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text p:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h6 {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .foryou .bigpicks .shopbigbox .text h6:hover {
+    color: #f03d3F;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .foryou .bigpicks .shopbigbox .text h5 span {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .foryou .bigpicks .picnetbook {
+    display: inline-block;
+  }
+  .mostloved {
+    width: 100%;
+  }
+  .mostloved .bigmost {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .mostloved .bigmost .pics {
+    display: inline-block;
+  }
+  .mostloved .bigmost .pics .textmost {
+    width: 60%;
+  }
+  .mostloved .bigmost .pics .textmost a {
+    font-size: 22px;
+  }
+  .mostloved .bigmost .pics .textmost a i {
+    margin-left: 15px;
+  }
+  .mostloved .bigmost .picssecond {
+    display: inline-block;
+  }
+  .mostloved .bigmost .picssecond .textmost {
+    width: 60%;
+  }
+  .mostloved .bigmost .picssecond .textmost a {
+    font-size: 22px;
+  }
+  .mostloved .bigmost .picssecond .textmost a i {
+    margin-left: 15px;
+  }
+  .mostloved .bigmost .arrowleft {
+    left: 5%;
+  }
+  .mostloved .bigmost .arrowright {
+    right: 5%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .homepg {
+    background-image: url(../photo/homebackgr.png);
+  }
+  .byshop .bigimgs .boximg .men a i {
+    margin-left: 5rem;
+  }
+  .byshop .bigimgs .boximgwmn .wmn a i {
+    margin-left: 2rem;
+  }
+  .byshop .bigimgs .boximgtop .men a i {
+    margin-left: 2rem;
+  }
+  .saleoff {
+    position: relative;
+    height: 40vh;
+    background-color: #fff;
+    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
+  }
+  .saleoff .boxsale {
+    display: none;
+  }
+  .saleoff .salemiddle {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    padding-right: 35px;
+  }
+  .saleoff .textsale {
+    position: absolute;
+    top: 0%;
+    right: 12%;
+    padding-left: 20px;
+  }
+  .saleoff .textsale p span {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
   .byshop .bigimgs .boximg .display {
     display: none;
   }
   .foryou .bigpicks .shopbigbox {
+    display: none;
+  }
+  .foryou .bigpicks .picnetbook {
     display: none;
   }
 }
@@ -3208,300 +3960,6 @@
   }
   .personalize .bigbox a {
     width: 35%;
-  }
-}
-
-@media (max-width: 576px) {
-  .homepg {
-    background-image: url(../photo/homebackgr.png);
-  }
-  .byshop {
-    height: 110vh;
-    font-family: 'Jost', sans-serif;
-  }
-  .byshop .bigimgs {
-    position: relative;
-  }
-  .byshop .bigimgs .boximg {
-    position: relative;
-  }
-  .byshop .bigimgs .boximg .men a {
-    font-size: 22px;
-    padding: 15px 2rem 15px 15px;
-  }
-  .byshop .bigimgs .boximg .men a i {
-    margin-left: 17rem;
-  }
-  .byshop .bigimgs .boximg .display {
-    position: absolute;
-    top: 40%;
-    right: 2%;
-  }
-  .byshop .bigimgs .boximg .display i {
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 18px;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-  .byshop .bigimgs .boximg .display:hover i {
-    background-color: #769881;
-  }
-  .byshop .bigimgs .boximgwmn {
-    display: none;
-  }
-  .byshop .bigimgs .boximgtop {
-    display: none;
-  }
-  .shcategory {
-    height: 860vh;
-  }
-  .shcategory .allbox {
-    margin-top: 3rem;
-  }
-  .shcategory .allbox .textbox {
-    width: 100%;
-  }
-  .shcategory .allbox .textbox h1 {
-    font-size: 2rem;
-  }
-  .shcategory .allbox .textbox ul {
-    margin-left: 5rem;
-  }
-  .shcategory .allbox .textbox ul li a:hover {
-    border-bottom: 3px solid #000;
-    padding-bottom: 0;
-  }
-  .shcategory .allbox .textbox ul li .all {
-    padding-bottom: 0%;
-  }
-  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .eye {
-    padding: 10px 17px;
-  }
-  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
-    padding: 12px 8rem;
-    text-align: center;
-  }
-  .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
-    padding: 10px 15px;
-  }
-  .shcategory .allbox .shopall {
-    width: 50%;
-  }
-  .saleoff {
-    height: 70vh;
-    background-color: #fff;
-    background-image: url("https://demo.themewinter.com/wp/bascart/classic/wp-content/uploads/sites/8/2021/10/shape-bg.png");
-  }
-  .saleoff .boxsale {
-    display: none;
-  }
-  .saleoff .salemiddle {
-    margin-top: 0;
-    margin-left: 30px;
-    border: none;
-  }
-  .saleoff .textsale {
-    padding-left: 20px;
-  }
-  .saleoff .textsale p span {
-    font-size: 4rem;
-  }
-  .foryou {
-    width: 100%;
-    height: 80vh;
-  }
-  .foryou .bigpicks .textbox {
-    width: 60%;
-  }
-  .foryou .bigpicks .pickbox {
-    display: none;
-  }
-  .foryou .bigpicks .shopbigbox {
-    margin-top: 20px;
-    overflow: hidden;
-    border: 1px solid rgba(128, 128, 128, 0.144);
-  }
-  .foryou .bigpicks .shopbigbox .buy {
-    position: relative;
-    overflow: hidden;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hoverbox {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
-  }
-  .foryou .bigpicks .shopbigbox .buy .heart {
-    display: block;
-    position: absolute;
-    right: 5%;
-    top: 4%;
-    padding: 5px 9px;
-    background-color: #fff;
-    border-radius: 22px;
-    font-size: 18px;
-    color: #000;
-  }
-  .foryou .bigpicks .shopbigbox .buy .off {
-    position: absolute;
-    top: 5%;
-    left: 4%;
-    padding: 8px 10px;
-    background-color: #000;
-    color: #fff;
-    font-size: 11px;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext {
-    position: absolute;
-    bottom: 3%;
-    left: 4%;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext a {
-    text-decoration: none;
-    color: #000;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext a:hover {
-    background-color: #769881;
-    color: #fff;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
-    padding: 6px;
-    background-color: #fff;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
-    display: inline-block;
-    padding: 8px 12px;
-    margin: 0 1px;
-    background-color: #fff;
-    font-weight: bold;
-    font-size: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
-    padding: 6px;
-    background-color: #fff;
-  }
-  .foryou .bigpicks .shopbigbox:hover .hovertext a {
-    visibility: visible;
-    opacity: 1;
-  }
-  .foryou .bigpicks .shopbigbox:hover .hoverbox {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  .foryou .bigpicks .shopbigbox .text {
-    padding: 10px 20px;
-  }
-  .foryou .bigpicks .shopbigbox .text .blue {
-    display: inline-block;
-    padding: 8px;
-    background-color: #bedce3;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .brown {
-    display: inline-block;
-    background-color: #866953;
-    padding: 8px;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .lightblue {
-    display: inline-block;
-    padding: 8px;
-    background-color: #8db4d2;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .pink {
-    display: inline-block;
-    padding: 8px;
-    background-color: #ffd1dc;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text p {
-    margin-top: 10px;
-    font-size: 12px;
-    color: #808080;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-  .foryou .bigpicks .shopbigbox .text p:hover {
-    color: #f03d3F;
-  }
-  .foryou .bigpicks .shopbigbox .text h6 {
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-  .foryou .bigpicks .shopbigbox .text h6:hover {
-    color: #f03d3F;
-  }
-  .foryou .bigpicks .shopbigbox .text h5 {
-    margin-top: 15px;
-    font-size: 17px;
-  }
-  .foryou .bigpicks .shopbigbox .text h5 span {
-    text-decoration: line-through;
-    font-size: 12px;
-    margin-left: 5px;
-    font-weight: normal;
-  }
-  .mostloved .bigmost {
-    padding: 0;
-  }
-  .mostloved .bigmost .text {
-    width: 70%;
-  }
-  .mostloved .bigmost .pics .textmost a {
-    font-weight: 300;
-  }
-  .mostloved .bigmost .pics .textmost a i {
-    margin-left: 9rem;
-  }
-  .mostloved .bigmost .picssecond {
-    display: none;
-  }
-  .news .top {
-    width: 100%;
-  }
-  .news .top .toptext h1 {
-    font-size: 2.5rem;
-  }
-  .news .top .toptext span {
-    font-size: 13px;
-  }
-  .news .top input {
-    width: 90%;
-    display: block;
-    margin-left: 25px;
-  }
-  .news .top a {
-    margin-top: 10px;
-    width: 90%;
-  }
-  .news .bottext {
-    margin-top: 4rem;
-    width: 100%;
-  }
-  .news .bottext .boxi {
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 576px) {
-  .byshop .bigimgs .boximg .display {
-    display: none;
-  }
-  .foryou .bigpicks .shopbigbox {
-    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
