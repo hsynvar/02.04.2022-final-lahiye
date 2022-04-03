@@ -480,7 +480,7 @@
 //    height: 80vh;
     .bigpicks{
         padding: 0 4rem;
-        width: 100%;
+        // width: 100%;
         position: relative;
         .textbox{
             width: 40%;
@@ -980,7 +980,8 @@
                         font-size: 22px;
                         padding: 15px 2rem 15px 15px;
                         i{
-                            margin-left: 17rem;
+                            font-size: 18px;
+                            margin-left: 10rem;
                         }
                     }
                 }
@@ -1018,18 +1019,19 @@
         .allbox{
             margin-top: 3rem;
             .textbox{
-                width: 60%;
+                width: 80%;
                 margin: auto;
                 text-align: center;
                 h1{
-                    font-size: 2rem;
+                    font-size: 1.5rem;
     
                 }
                 ul{ 
                     text-align: center;
-                    margin-left: 4rem;
+                    margin-left: -10px;
                     li{
                         a{
+                            font-size: 16px;
                             &:hover{
                                 border-bottom: 3px solid $black;
                                 padding-bottom: 0;
@@ -1054,7 +1056,7 @@
     
                            }
                            .opt{
-                               padding: 12px 8rem;
+                               padding: 12px 4rem;
                                text-align: center;
     
                            }
@@ -1068,7 +1070,7 @@
                 }
             }
             .shopall{
-                width: 50%;
+                width: 55%;
             }
         }
     }
@@ -1103,8 +1105,11 @@
         width: 100%;
         // height: 80vh;
         .bigpicks{
+            width: 95%;
+            margin: 0 auto;
+            padding: 0;
             .textbox{
-                width: 60%;
+                width: 90%;
             }
             .pickbox{
                 display: none;
@@ -1162,19 +1167,19 @@
                            }
                         }
                         .eye{
-                            padding: 6px;
+                            padding: 5px;
                             background-color: $white;
                         }
                         .opt{
                             display: inline-block;
-                            padding: 8px 12px;
-                            margin: 0 1px;
+                            padding: 8px;
+                            // margin: 0 1px;
                             background-color: $white;
                             font-weight: bold;
-                            font-size: 10px;
+                            font-size: 8px;
                         }
                         .refresh{
-                            padding: 6px;
+                            padding: 5px;
                             background-color: $white;
                         }   
                     }
@@ -1195,30 +1200,6 @@
             //  buy end 
             .text{
                 padding: 10px 20px;
-                .blue{
-                    display: inline-block;
-                    padding: 8px;
-                    background-color: $lightblue;
-                    border-radius: 10px;
-                }
-                .brown{
-                    display: inline-block;
-                    background-color: $brown;
-                    padding: 8px;
-                    border-radius: 10px;
-                }
-                .lightblue{
-                    display: inline-block;
-                    padding: 8px;
-                    background-color: $blue;
-                    border-radius: 10px;
-                }
-                .pink{
-                    display: inline-block;
-                    padding: 8px;
-                    background-color: $pink;
-                    border-radius: 10px;
-                }
                 p{
                     margin-top: 10px;
                     font-size: 12px;
@@ -1254,17 +1235,20 @@
     // foryou end 
     // mostloved start 
     .mostloved{
+        width: 100%;
         .bigmost{
+            width: 95%;
             padding: 0;
             .text{
-                width: 70%;
+                width: 80%;
             }
             .pics{
                 .textmost{
                    a{
+                       font-size: 18px;
                        font-weight: 300;
                        i{
-                           margin-left: 9rem;
+                           margin-left: 8rem;
                        }
                    }
                 }
@@ -1285,7 +1269,10 @@
                     font-size: 2.5rem;
                 }
                 span{
-                    font-size: 13px;
+                    font-size: 17px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: $gray;
                 }
     
     
@@ -1334,6 +1321,7 @@
                             font-size: 22px;
                             padding: 15px 3rem 15px 15px;
                             i{
+                                font-size: 12px;
                                 margin-left: 16rem;
                             }
                         }
@@ -1614,14 +1602,15 @@
            width: 100%;
            .bigmost{
                width: 100%;
+               margin: 0;
                padding: 0 15px;
                .pics{
                    .textmost{
                        a{
-                           font-size: 18px;
+                           font-size: 8px;
 
                         i{
-                            margin-left: 15rem;
+                            margin-left: rem;
                         }
                        }  
                    }

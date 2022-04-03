@@ -536,7 +536,6 @@
 
 .foryou .bigpicks {
   padding: 0 4rem;
-  width: 100%;
   position: relative;
 }
 
@@ -1089,7 +1088,8 @@
     padding: 15px 2rem 15px 15px;
   }
   .byshop .bigimgs .boximg .men a i {
-    margin-left: 17rem;
+    font-size: 18px;
+    margin-left: 10rem;
   }
   .byshop .bigimgs .boximg .display {
     position: absolute;
@@ -1116,16 +1116,19 @@
     margin-top: 3rem;
   }
   .shcategory .allbox .textbox {
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: center;
   }
   .shcategory .allbox .textbox h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .shcategory .allbox .textbox ul {
     text-align: center;
-    margin-left: 4rem;
+    margin-left: -10px;
+  }
+  .shcategory .allbox .textbox ul li a {
+    font-size: 16px;
   }
   .shcategory .allbox .textbox ul li a:hover {
     border-bottom: 3px solid #000;
@@ -1138,14 +1141,14 @@
     padding: 10px 17px;
   }
   .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
-    padding: 12px 8rem;
+    padding: 12px 4rem;
     text-align: center;
   }
   .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
     padding: 10px 15px;
   }
   .shcategory .allbox .shopall {
-    width: 50%;
+    width: 55%;
   }
   .saleoff {
     background-color: #fff;
@@ -1168,8 +1171,13 @@
   .foryou {
     width: 100%;
   }
+  .foryou .bigpicks {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
   .foryou .bigpicks .textbox {
-    width: 60%;
+    width: 90%;
   }
   .foryou .bigpicks .pickbox {
     display: none;
@@ -1232,19 +1240,18 @@
     color: #fff;
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext .eye {
-    padding: 6px;
+    padding: 5px;
     background-color: #fff;
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
     display: inline-block;
-    padding: 8px 12px;
-    margin: 0 1px;
+    padding: 8px;
     background-color: #fff;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 8px;
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext .refresh {
-    padding: 6px;
+    padding: 5px;
     background-color: #fff;
   }
   .foryou .bigpicks .shopbigbox:hover .hovertext a {
@@ -1259,30 +1266,6 @@
   }
   .foryou .bigpicks .shopbigbox .text {
     padding: 10px 20px;
-  }
-  .foryou .bigpicks .shopbigbox .text .blue {
-    display: inline-block;
-    padding: 8px;
-    background-color: #bedce3;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .brown {
-    display: inline-block;
-    background-color: #866953;
-    padding: 8px;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .lightblue {
-    display: inline-block;
-    padding: 8px;
-    background-color: #8db4d2;
-    border-radius: 10px;
-  }
-  .foryou .bigpicks .shopbigbox .text .pink {
-    display: inline-block;
-    padding: 8px;
-    background-color: #ffd1dc;
-    border-radius: 10px;
   }
   .foryou .bigpicks .shopbigbox .text p {
     margin-top: 10px;
@@ -1314,17 +1297,22 @@
   .foryou .bigpicks .picnetbook {
     display: none;
   }
+  .mostloved {
+    width: 100%;
+  }
   .mostloved .bigmost {
+    width: 95%;
     padding: 0;
   }
   .mostloved .bigmost .text {
-    width: 70%;
+    width: 80%;
   }
   .mostloved .bigmost .pics .textmost a {
+    font-size: 18px;
     font-weight: 300;
   }
   .mostloved .bigmost .pics .textmost a i {
-    margin-left: 9rem;
+    margin-left: 8rem;
   }
   .mostloved .bigmost .picssecond {
     display: none;
@@ -1336,7 +1324,10 @@
     font-size: 2.5rem;
   }
   .news .top .toptext span {
-    font-size: 13px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #808080;
   }
   .news .top input {
     width: 90%;
@@ -1374,6 +1365,7 @@
     padding: 15px 3rem 15px 15px;
   }
   .byshop .bigimgs .boximg .men a i {
+    font-size: 12px;
     margin-left: 16rem;
   }
   .byshop .bigimgs .boximg .display {
@@ -1616,13 +1608,14 @@
   }
   .mostloved .bigmost {
     width: 100%;
+    margin: 0;
     padding: 0 15px;
   }
   .mostloved .bigmost .pics .textmost a {
-    font-size: 18px;
+    font-size: 8px;
   }
   .mostloved .bigmost .pics .textmost a i {
-    margin-left: 15rem;
+    margin-left: rem;
   }
   .mostloved .bigmost .picssecond {
     display: none;
@@ -2093,7 +2086,6 @@
 
 .icons {
   width: 100%;
-  height: 30vh;
 }
 
 .icons .bottext {
