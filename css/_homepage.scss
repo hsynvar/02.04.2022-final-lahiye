@@ -1300,6 +1300,7 @@
     // ------- 
     }
 
+
 // ------------------------ 
 // PLANSHET
 
@@ -1446,7 +1447,7 @@
                 display: none;
             }
             .shopbigbox{
-                height: 60vh;
+                height: 40vh;
                 margin-top: 20px;
                 overflow: hidden;
                 border:  1px solid rgba(128, 128, 128, 0.144);
@@ -1486,7 +1487,7 @@
                     .hovertext{
                         position: absolute;
                         bottom: 3%;
-                        left: 4%;
+                        left: 5%;
                         a{
                             text-decoration: none;
                             color: $black;
@@ -1504,7 +1505,7 @@
                         }
                         .opt{
                             display: inline-block;
-                            padding: 10px 25px;
+                            padding: 10px 35px;
                             margin: 0 1px;
                             background-color: $white;
                             font-weight: bold;
@@ -1607,10 +1608,10 @@
                .pics{
                    .textmost{
                        a{
-                           font-size: 8px;
+                           font-size: 35px;
 
                         i{
-                            margin-left: rem;
+                            margin-left: 8rem;
                         }
                        }  
                    }
@@ -1640,7 +1641,8 @@
         .byshop{
             // height: 110vh;
             font-family: 'Jost', sans-serif;
-            .bigimgs{ position: relative;
+            .bigimgs{ 
+                position: relative;
                 .boximg{
                     position: relative;
                     .men{
@@ -1690,7 +1692,7 @@
         
                     }
                     ul{ 
-                        margin-left: 5rem;
+                        margin-left: 10rem;
                         li{
                             a{
                                 &:hover{
@@ -1777,6 +1779,7 @@
                 display: none;
             }
             .shopbigbox{
+                height: 27vh;
                 display: inline-block;
                 margin-top: 20px;
                 overflow: hidden;
@@ -1978,6 +1981,12 @@
                 }
             }
         }
+        .news{
+            .top{
+                height: 30vh;
+
+            }
+        }
 
 
     
@@ -1998,10 +2007,8 @@
                         a{
                             i{
                                 margin-left: 5rem;
-    
                             }
                         }
-
                     } 
                 }
                 // --- 

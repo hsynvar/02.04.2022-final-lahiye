@@ -1455,7 +1455,7 @@
     display: none;
   }
   .foryou .bigpicks .shopbigbox {
-    height: 60vh;
+    height: 40vh;
     margin-top: 20px;
     overflow: hidden;
     border: 1px solid rgba(128, 128, 128, 0.144);
@@ -1498,7 +1498,7 @@
   .foryou .bigpicks .shopbigbox .buy .hovertext {
     position: absolute;
     bottom: 3%;
-    left: 4%;
+    left: 5%;
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext a {
     text-decoration: none;
@@ -1518,7 +1518,7 @@
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 35px;
     margin: 0 1px;
     background-color: #fff;
     font-weight: bold;
@@ -1612,10 +1612,10 @@
     padding: 0 15px;
   }
   .mostloved .bigmost .pics .textmost a {
-    font-size: 8px;
+    font-size: 35px;
   }
   .mostloved .bigmost .pics .textmost a i {
-    margin-left: rem;
+    margin-left: 8rem;
   }
   .mostloved .bigmost .picssecond {
     display: none;
@@ -1679,7 +1679,7 @@
     font-size: 2rem;
   }
   .shcategory .allbox .textbox ul {
-    margin-left: 5rem;
+    margin-left: 10rem;
   }
   .shcategory .allbox .textbox ul li a:hover {
     border-bottom: 3px solid #000;
@@ -1741,6 +1741,7 @@
     display: none;
   }
   .foryou .bigpicks .shopbigbox {
+    height: 27vh;
     display: inline-block;
     margin-top: 20px;
     overflow: hidden;
@@ -1922,6 +1923,9 @@
   }
   .mostloved .bigmost .arrowright {
     right: 5%;
+  }
+  .news .top {
+    height: 30vh;
   }
 }
 
