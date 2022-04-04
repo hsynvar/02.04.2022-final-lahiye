@@ -2,6 +2,8 @@
 // @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
 
 
+
+// homepage end 
 .homepg{
     position: relative;
     width: 100%;
@@ -544,7 +546,7 @@
                             background-color: $white;
                         }
                         .opt{
-                            padding: 9px 13px;
+                            padding: 9px 16px;
                             margin: 0 1px;
                             background-color: $white;
                             font-weight: bold;
@@ -886,7 +888,7 @@
 .news{
     width: 100%;
     margin: 3rem 0;
-    // height: 80vh;
+    height: 80vh;
     .top{
         width: 90%;
         height: 55vh;
@@ -951,6 +953,9 @@
         }
     }
 }
+// news end 
+// .-------
+
 
 
 
@@ -1447,7 +1452,7 @@
                 display: none;
             }
             .shopbigbox{
-                height: 40vh;
+                height: 48vh;
                 margin-top: 20px;
                 overflow: hidden;
                 border:  1px solid rgba(128, 128, 128, 0.144);
@@ -1633,6 +1638,7 @@
     // NETBOOK 
     @media (min-width: 768px) and ( max-width: 992px) {
         .homepg{
+            height: 50vh;
             background-image: url(../photo/homebackgr.png); 
         }
         // homepage end 
@@ -1779,7 +1785,7 @@
                 display: none;
             }
             .shopbigbox{
-                height: 27vh;
+                height: 35vh;
                 display: inline-block;
                 margin-top: 20px;
                 overflow: hidden;

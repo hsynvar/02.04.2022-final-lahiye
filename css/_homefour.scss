@@ -449,7 +449,7 @@
     height: 150vh;
     .topbox{
         .rightbox{
-            margin: 5rem 0 0 -6rem;
+            margin: 5rem 0 0 -2rem;
             h1{
                 font-size: 3rem;
             }
@@ -1111,7 +1111,7 @@
 @media (max-width: 576px){
     .holidayhome{
         width: 100%;
-        height: 150vh;
+        height: 140vh;
         .bigbox{
             position: relative;
             .boxtext{
@@ -1169,7 +1169,7 @@
     // shopcateg start .
     .shopcateg{
         width: 100%;
-        height: 120vh;
+        // height: 120vh;
         .bigshop{
             margin-top: 4rem;
             .text{
@@ -1215,16 +1215,17 @@
     // newarrivals start 
     .newarriwals{
         width: 100%;
-        height: 780vh;
+        height: 600vh;
         .allbox{
             width: 100%;
             .textbox{
-                width: 80%;
+                width: 95%;
+                margin: auto;
                 h1{
                     font-size: 2rem;
                 }
                 ul{
-                    margin-left: 2.5rem;
+                    // margin-left: 2.5rem;
                     li{
                         a{
                             margin-left: 30px;
@@ -1278,6 +1279,7 @@
     }
     // vacation end 
     .foryoupic{ 
+        height: 50vh;
         .bigpicks{
             .textbox{
                 width: 100%;
@@ -1286,7 +1288,7 @@
                 display: none;
             }
             .pickboxone{
-            height: 40vh;
+            height: 38vh;
                 .buy{
                     .hovertext{
                         left: 4%;
@@ -1772,7 +1774,7 @@
     //             }
     //         }
     //     }
-    // }
+// }    
 }
 
 
