@@ -930,32 +930,108 @@
             }
         }
     }
-    .bottext{
-        width: 90%;
-        margin: 3rem auto;
-        .boxi{
-            position: relative;
-            .iconbox{
-                position: absolute;
-                top: 30%;
-                left: 0%;
-                i{
-                    font-size: 20px;
-                }
-            }
-            .textbox{
-                margin-left: 3rem;
-                h2{
-                    font-size: 24px;
-                    font-weight: normal;
-                }
-            }
-        }
-    }
+    // .bottext{
+    //     width: 90%;
+    //     margin: 3rem auto;
+    //     .boxi{
+    //         position: relative;
+    //         .iconbox{
+    //             position: absolute;
+    //             top: 30%;
+    //             left: 0%;
+    //             i{
+    //                 font-size: 20px;
+    //             }
+    //         }
+    //         .textbox{
+    //             margin-left: 3rem;
+    //             h2{
+    //                 font-size: 24px;
+    //                 font-weight: normal;
+    //             }
+    //         }
+    //     }
+    // }
 }
 // news end 
 // .-------
-
+// payment 2 start 
+.payment-2{
+    width: 75%;
+    margin: auto;
+    padding-top: 80px;
+    .delivery-1{
+        .del-icon-1{
+            i{
+                font-size: 20px;
+            }
+        }
+        .del-text-1{
+            margin-left: 25px;
+            h3{
+                color: #181B2B;
+                font-size: 23px;
+                font-weight: 600;
+                line-height: 35px;
+                font-family: Jost, sans-serif;
+            }
+            h6{
+                color: #181B2B;
+                font-size: 14px;
+                line-height: 18px;
+                font-family: Jost, sans-serif;
+            }
+        }
+       .ret-1{
+           .ret-icon-1{
+               i{
+                font-size: 20px;
+               }
+           }
+           .ret-text-1{
+            margin-left: 25px;
+            h3{
+                color: #181B2B;
+                font-size: 23px;
+                font-weight: 600;
+                line-height: 35px;
+                font-family: Jost, sans-serif;
+            }
+            h6{
+                color: #181B2B;
+                font-size: 14px;
+                line-height: 18px;
+                font-family: Jost, sans-serif;
+            }
+           }
+       } 
+       .quality-1{
+           .quality-icon-1{
+               i{
+                   font-size: 20px;
+               }
+           }
+           .quality-text-1{
+               margin-left: 25px;
+               h3{
+                color: #181B2B;
+                font-size: 23px;
+                font-weight: 600;
+                line-height: 35px;
+                font-family: Jost, sans-serif; 
+               }
+               h6{
+                color: #181B2B;
+                font-size: 14px;
+                line-height: 18px;
+                font-family: Jost, sans-serif; 
+               }
+           }
+       }
+    }
+  
+}
+// payment end 
 
 
 
@@ -1293,17 +1369,23 @@
                 width: 90%;
             }
         }
-        .bottext{
-            margin-top: 4rem;
-            width: 100%;
-          .boxi{
-              margin-top: 20px;
-          }   
-        }
+        // .bottext{
+        //     margin-top: 4rem;
+        //     width: 100%;
+        //   .boxi{
+        //       margin-top: 20px;
+        //   }   
+        // }
     }
     // news end 
-    // ------- 
+    // -------- 
+    // payment 2 start 
+    .payment-2{
+        width: 100%;
+        padding-left: 20px;
     }
+    // ------- 
+}
 
 
 // ------------------------ 
