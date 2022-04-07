@@ -8728,6 +8728,9 @@ h1 {
   .anthony .lopez .lopez-right .lopez-text {
     width: 100%;
   }
+  .anthony .lopez .lopez-left .eye {
+    display: none;
+  }
   .meet .fred {
     margin-left: -140px;
   }

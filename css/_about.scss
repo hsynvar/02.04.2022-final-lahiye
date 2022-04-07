@@ -535,6 +535,11 @@
                    width: 100%;
                }
            }
+           .lopez-left{
+               .eye{
+                   display: none;
+               }
+           }
        }
    }
    .meet{
@@ -568,7 +573,7 @@
  }
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) {
+@media  (min-width:576px) and (max-width: 768px) {
 
 }
 
