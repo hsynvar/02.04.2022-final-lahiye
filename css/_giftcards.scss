@@ -131,8 +131,7 @@
 // --------
 .news{
     width: 100%;
-    height: 50vh;
-  
+    height: 10vh;
     .bottext{
         width: 90%;
         margin: 3rem auto;
@@ -174,6 +173,9 @@
             }
         }
     }
+    .news{
+        height: 30vh;
+    }
 }
 
 // planshet 
@@ -191,6 +193,9 @@
                 width: 35%;
             }
         }
+    }
+    .news{
+        height: 30vh;
     }
 }
 
