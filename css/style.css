@@ -592,6 +592,57 @@ a {
   }
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .header .top-header {
+    width: 100%;
+  }
+  .header .top-header .top-left {
+    display: none;
+  }
+  .header .top-header .top-middle {
+    padding-left: 20px;
+  }
+  .header .top-header .top-right .top-acc {
+    display: none;
+  }
+  .header .top-header .top-right .top-acc-1 {
+    display: none;
+  }
+  .header .top-header .top-right .top-acc-2 {
+    display: block;
+    border-right: 0;
+  }
+  .header .top-header .top-right .top-euro {
+    display: none;
+  }
+  .header .bottom-header {
+    margin-top: 40px;
+  }
+  .header .bottom-header .bottom-all {
+    padding: 18px 0;
+  }
+  .header .bottom-header .bottom-all .bottom-left {
+    display: none;
+  }
+  .header .bottom-header .bottom-all .bottom-right {
+    margin-left: 0;
+  }
+  .header .bottom-header .bottom-all .bottom-right span {
+    margin-left: 23rem;
+  }
+  .header .bottom-header .bottom-all .bottom-right span i {
+    opacity: 1;
+    width: 50px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #769881;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+  }
+}
+
 .homepg {
   position: relative;
   width: 100%;
@@ -1782,7 +1833,7 @@ a {
     padding: 10px 17px;
   }
   .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .opt {
-    padding: 12px 4rem;
+    padding: 12px 7rem;
     text-align: center;
   }
   .shcategory .allbox .shopbox .shopbigbox .buy .hovertext .refresh {
@@ -1886,7 +1937,7 @@ a {
   }
   .foryou .bigpicks .shopbigbox .buy .hovertext .opt {
     display: inline-block;
-    padding: 8px;
+    padding: 8px 2.5rem;
     background-color: #fff;
     font-weight: bold;
     font-size: 8px;
@@ -8060,6 +8111,45 @@ h1 {
 }
 
 @media (max-width: 576px) {
+  .contact .contact-inside {
+    margin-top: 65px;
+  }
+  .contact .contact-inside .contact-text h1 {
+    margin: 0;
+  }
+  .contact .contact-inside .contact-text-2 ul {
+    margin: 0;
+  }
+  .contact .contact-inside .contact-text-2 ul li {
+    padding-left: 0;
+    margin: 20px 20px 0 0;
+  }
+  .contact-anket {
+    width: 100%;
+  }
+  .contact-anket .anket {
+    padding-left: 0;
+  }
+  .contact-anket .anket .all-text {
+    padding-left: 20px;
+    margin-top: 25px;
+  }
+  .contact-anket .anket .anket-answer .first-name input {
+    width: 95%;
+  }
+  .contact-anket .anket .anket-answer .answer-input-4 input {
+    width: 95%;
+  }
+  .contact-anket .anket .anket-answer .answer-button a {
+    width: 100%;
+  }
+  .payment-2 {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
   .contact .contact-inside {
     margin-top: 65px;
   }

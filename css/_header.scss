@@ -542,3 +542,59 @@ a {
         }
     }
 }
+@media (min-width: 576px) and (max-width:768px){
+    .header {
+        .top-header {
+            width: 100%;
+            .top-left {
+                display: none;
+            }
+            .top-middle {
+                padding-left: 20px;
+            }
+            .top-right {
+                .top-acc {
+                    display: none;
+                }
+                .top-acc-1 {
+                    display: none;
+                }
+                .top-acc-2 {
+                    display: block;
+                    border-right: 0;
+                }
+                .top-euro {
+                    display: none;
+                }
+            }
+        }
+
+        .bottom-header {
+            margin-top: 40px;
+            .bottom-all {
+                padding: 18px 0;
+                .bottom-left {
+                    display: none;
+                }
+                .bottom-right {
+                    margin-left: 0;
+                    span {
+                        margin-left: 23rem;
+                        i {
+                            opacity: 1;
+                            width: 50px;
+                            height: 40px;
+                            border-radius: 3px;
+                            background-color: #769881;
+                            color: white;
+                            text-align: center;
+                            padding-top: 12px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    }
