@@ -1592,7 +1592,7 @@
                         }
                         .opt{
                             display: inline-block;
-                            padding: 10px 35px;
+                            padding: 10px 13px;
                             margin: 0 1px;
                             background-color: $white;
                             font-weight: bold;
@@ -1714,6 +1714,48 @@
                }
            }
        }
+       .news{
+        .top{
+            width: 100%;
+            .toptext{
+                h1{
+                    font-size: 2.5rem;
+                }
+                span{
+                    font-size: 17px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: $gray;
+                }
+    
+    
+            }
+            input{
+                width: 90%;
+                display: block;
+                margin-left: 25px;
+    
+            }
+            a{
+                margin-top: 10px;
+                width: 90%;
+            }
+        }
+        // .bottext{
+        //     margin-top: 4rem;
+        //     width: 100%;
+        //   .boxi{
+        //       margin-top: 20px;
+        //   }   
+        // }
+    }
+    //    ---- 
+       .payment-2{
+        margin-top: 3rem;
+        width: 100%;
+        padding-left: 20px;
+    }
+    // ------- 
     }
     // -------------------------------- 
 
