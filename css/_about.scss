@@ -574,6 +574,79 @@
 
 // Medium devices (tablets, 768px and up)
 @media  (min-width:576px) and (max-width: 768px) {
+    .about{
+        .inside{
+            .about-left{
+                 .twice{
+                     .believe {
+                       
+                         h3 {
+                             font-size: 31px;
+                             line-height: 40px;
+                         }
+                     }
+                 }
+            }
+           .numbers{
+             .plus{
+                 flex-direction: column !important;
+                 text-align: center;
+             }
+         }
+         .about-right{
+             margin-bottom: 30px;
+         }
+        }
+    }
+    .detail{
+        width: 100%;
+        height: 150vh;
+       .domen{
+         padding-left: 0;
+       }
+    }
+    .anthony{
+        .lopez{
+            .lopez-right{
+                .lopez-text{
+                    width: 100%;
+                }
+            }
+            .lopez-left{
+                .eye{
+                    display: none;
+                }
+            }
+        }
+    }
+    .meet{
+        .fred{
+           margin-left: -140px;
+        }
+        .letterr{
+         .letter-button{
+             display: flex;
+             input{
+                 width: 100%;
+             }
+             a{
+                 padding: 24px 12px;
+             }
+         }
+    }
+    }
+    .payment{
+        .delivery{
+          margin-left: -30px;
+          .del-1{
+              margin-bottom: 30px;
+          }
+          .ret{
+             margin-bottom: 30px;
+          }
+          
+        }
+    }
 
 }
 
