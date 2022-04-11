@@ -702,7 +702,7 @@ a {
 }
 
 .byshop {
-  margin-top: 3rem;
+  padding-top: 3rem;
   width: 100%;
   text-align: center;
   font-family: 'Jost', sans-serif;
@@ -893,7 +893,7 @@ a {
 
 .shcategory {
   width: 100%;
-  margin: 5rem 0;
+  padding: 5rem 0;
   font-family: 'Jost', sans-serif;
 }
 
@@ -943,6 +943,7 @@ a {
 .shcategory .allbox .shopbox .shopbigbox .buy {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .shcategory .allbox .shopbox .shopbigbox .buy .hoverbox {
@@ -982,7 +983,7 @@ a {
 .shcategory .allbox .shopbox .shopbigbox .buy .hovertext {
   position: absolute;
   bottom: 3%;
-  left: 4%;
+  left: 3%;
 }
 
 .shcategory .allbox .shopbox .shopbigbox .buy .hovertext a {
@@ -1174,7 +1175,7 @@ a {
 }
 
 .foryou {
-  margin-top: 7rem;
+  padding-top: 7rem;
   width: 100%;
 }
 
@@ -1481,8 +1482,9 @@ a {
 }
 
 .mostloved {
-  margin-top: 3rem;
+  padding-top: 3rem;
   width: 100%;
+  height: 100vh;
   background-color: transparent;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #FFFFFF), color-stop(0%, #FCF5EA));
   background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
@@ -1632,15 +1634,13 @@ a {
   color: #fff;
 }
 
-.news {
+.newsLetter {
   width: 100%;
-  margin: 3rem 0;
-  height: 80vh;
+  margin: 2rem 0;
 }
 
-.news .top {
+.newsLetter .toptext {
   width: 90%;
-  height: 55vh;
   margin: auto;
   text-align: center;
   border: 10px solid #D4D6E5;
@@ -1649,24 +1649,21 @@ a {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
-}
-
-.news .top .toptext {
   text-align: center;
 }
 
-.news .top .toptext h1 {
-  margin-bottom: 20px;
+.newsLetter .toptext span {
+  display: block;
 }
 
-.news .top input {
+.newsLetter .toptext input {
   margin-top: 35px;
   width: 45%;
   padding: 20px 15px;
   border: 0.5px solid rgba(128, 128, 128, 0.452);
 }
 
-.news .top a {
+.newsLetter .toptext a {
   margin-left: 5px;
   text-decoration: none;
   padding: 20px 35px;
@@ -1678,88 +1675,45 @@ a {
   font-weight: 300;
 }
 
-.news .top a i {
+.newsLetter .toptext a i {
   margin-left: 5px;
 }
 
-.news .top a:hover {
+.newsLetter .toptext a:hover {
   background-color: #000;
   color: #fff;
 }
 
-.payment-2 {
-  width: 75%;
-  margin: auto;
-  padding-top: 80px;
+.newsLetter .toptext h1 {
+  margin-bottom: 20px;
 }
 
-.payment-2 .delivery-1 .del-icon-1 i {
+.newsLetter .bottext {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.newsLetter .bottext .boxi {
+  position: relative;
+}
+
+.newsLetter .bottext .boxi .iconbox {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+.newsLetter .bottext .boxi .iconbox i {
   font-size: 20px;
 }
 
-.payment-2 .delivery-1 .del-text-1 {
-  margin-left: 25px;
+.newsLetter .bottext .boxi .textbox {
+  margin-left: 3rem;
 }
 
-.payment-2 .delivery-1 .del-text-1 h3 {
-  color: #181B2B;
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 35px;
-  font-family: Jost, sans-serif;
-}
-
-.payment-2 .delivery-1 .del-text-1 h6 {
-  color: #181B2B;
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Jost, sans-serif;
-}
-
-.payment-2 .delivery-1 .ret-1 .ret-icon-1 i {
-  font-size: 20px;
-}
-
-.payment-2 .delivery-1 .ret-1 .ret-text-1 {
-  margin-left: 25px;
-}
-
-.payment-2 .delivery-1 .ret-1 .ret-text-1 h3 {
-  color: #181B2B;
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 35px;
-  font-family: Jost, sans-serif;
-}
-
-.payment-2 .delivery-1 .ret-1 .ret-text-1 h6 {
-  color: #181B2B;
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Jost, sans-serif;
-}
-
-.payment-2 .delivery-1 .quality-1 .quality-icon-1 i {
-  font-size: 20px;
-}
-
-.payment-2 .delivery-1 .quality-1 .quality-text-1 {
-  margin-left: 25px;
-}
-
-.payment-2 .delivery-1 .quality-1 .quality-text-1 h3 {
-  color: #181B2B;
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 35px;
-  font-family: Jost, sans-serif;
-}
-
-.payment-2 .delivery-1 .quality-1 .quality-text-1 h6 {
-  color: #181B2B;
-  font-size: 14px;
-  line-height: 18px;
-  font-family: Jost, sans-serif;
+.newsLetter .bottext .boxi .textbox h2 {
+  font-size: 24px;
+  font-weight: normal;
 }
 
 @media (max-width: 576px) {
@@ -1991,6 +1945,7 @@ a {
   }
   .mostloved {
     width: 100%;
+    margin: 20px 0;
   }
   .mostloved .bigmost {
     width: 95%;
@@ -2009,30 +1964,33 @@ a {
   .mostloved .bigmost .picssecond {
     display: none;
   }
-  .news .top {
+  .newsLetter {
     width: 100%;
   }
-  .news .top .toptext h1 {
+  .newsLetter .toptext h1 {
     font-size: 2.5rem;
   }
-  .news .top .toptext span {
+  .newsLetter .toptext span {
     font-size: 17px;
     line-height: 30px;
     font-weight: 400;
     color: #808080;
   }
-  .news .top input {
+  .newsLetter .toptext input {
     width: 90%;
     display: block;
     margin-left: 25px;
   }
-  .news .top a {
+  .newsLetter .toptext a {
     margin-top: 10px;
     width: 90%;
   }
-  .payment-2 {
+  .newsLetter .bottext {
+    margin-top: 4rem;
     width: 100%;
-    padding-left: 20px;
+  }
+  .newsLetter .bottext .boxi {
+    margin-top: 20px;
   }
 }
 

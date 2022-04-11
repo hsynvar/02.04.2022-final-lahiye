@@ -59,7 +59,7 @@
 // -------------------
 // section byshop start 
 .byshop{
-    margin-top: 3rem;
+    padding-top: 3rem;
     width: 100%;
     // height: 100vh;
     text-align: center;
@@ -227,7 +227,7 @@
 // section category start 
 .shcategory{
     width: 100%;
-    margin: 5rem 0;
+    padding: 5rem 0;
     // height: 180vh;
     font-family: 'Jost', sans-serif;
     .allbox{
@@ -272,6 +272,7 @@
                 .buy{
                 position: relative;
                 overflow: hidden;
+                width: 100%;
                     .hoverbox{
                         position: absolute;
                         top: 0%;
@@ -305,7 +306,7 @@
                     .hovertext{
                         position: absolute;
                         bottom: 3%;
-                        left: 4%;
+                        left: 3%;
                         a{
                             text-decoration: none;
                             color: $black;
@@ -477,7 +478,7 @@
 // ----------------- 
 // foryou section start 
 .foryou{
-    margin-top: 7rem;
+    padding-top: 7rem;
     width: 100%;
 //    height: 80vh;
     .bigpicks{
@@ -745,10 +746,9 @@
 // ------------------------
 // section mostloved start 
 .mostloved{
-
-    margin-top: 3rem;
+    padding-top: 3rem;
     width: 100%;
-    // height: 100vh;
+    height: 100vh;
     background-color: transparent;
     background-image: linear-gradient(360deg, #FFFFFF 40%, #FCF5EA 0%);
     .bigmost{
@@ -885,153 +885,78 @@
 }
 // mostloved end 
 // -------------
-.news{
+.newsLetter{
     width: 100%;
-    margin: 3rem 0;
-    height: 80vh;
-    .top{
-        width: 90%;
-        height: 55vh;
-        margin: auto;
-        text-align: center;
-        border: 10px solid #D4D6E5;
-        padding: 50px 20px 80px 20px;
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-
+    margin: 2rem 0;
         .toptext{
+            width: 90%;
+            // height: 55vh;
+            margin: auto;
             text-align: center;
+            border: 10px solid #D4D6E5;
+            padding: 50px 20px 80px 20px;
+            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+            text-align: center;
+            span{
+                display: block;
+            }
+            input{
+                margin-top: 35px;
+                width: 45%;
+    
+                padding: 20px 15px ;
+                border: 0.5px solid rgba(128, 128, 128, 0.452);
+                
+            }
+            a{
+                margin-left: 5px;
+                text-decoration: none;
+                padding: 20px 35px;
+                display: inline-block;
+                background-color: $green ;
+                color: $white;
+                transition: 0.5s ease;
+                font-weight: 300;
+                i{
+                    margin-left: 5px;
+                }
+                &:hover{
+                    background-color: $black;
+                    color: $white;
+                }
+            }
             h1{
                 margin-bottom: 20px;
 
             }
         }
-        input{
-            margin-top: 35px;
-            width: 45%;
-            padding: 20px 15px ;
-            border: 0.5px solid rgba(128, 128, 128, 0.452);
-            
-        }
-        a{
-            margin-left: 5px;
-            text-decoration: none;
-            padding: 20px 35px;
-            display: inline-block;
-            background-color: $green ;
-            color: $white;
-            transition: 0.5s ease;
-            font-weight: 300;
-            i{
-                margin-left: 5px;
+    .bottext{
+        width: 90%;
+        margin: 3rem auto;
+        .boxi{
+            position: relative;
+            .iconbox{
+                position: absolute;
+                top: 30%;
+                left: 0%;
+                i{
+                    font-size: 20px;
+                }
             }
-            &:hover{
-                background-color: $black;
-                color: $white;
+            .textbox{
+                margin-left: 3rem;
+                h2{
+                    font-size: 24px;
+                    font-weight: normal;
+                }
             }
         }
     }
-    // .bottext{
-    //     width: 90%;
-    //     margin: 3rem auto;
-    //     .boxi{
-    //         position: relative;
-    //         .iconbox{
-    //             position: absolute;
-    //             top: 30%;
-    //             left: 0%;
-    //             i{
-    //                 font-size: 20px;
-    //             }
-    //         }
-    //         .textbox{
-    //             margin-left: 3rem;
-    //             h2{
-    //                 font-size: 24px;
-    //                 font-weight: normal;
-    //             }
-    //         }
-    //     }
-    // }
 }
 // news end 
 // .-------
-// payment 2 start 
-.payment-2{
-    width: 75%;
-    margin: auto;
-    padding-top: 80px;
-    .delivery-1{
-        .del-icon-1{
-            i{
-                font-size: 20px;
-            }
-        }
-        .del-text-1{
-            margin-left: 25px;
-            h3{
-                color: #181B2B;
-                font-size: 23px;
-                font-weight: 600;
-                line-height: 35px;
-                font-family: Jost, sans-serif;
-            }
-            h6{
-                color: #181B2B;
-                font-size: 14px;
-                line-height: 18px;
-                font-family: Jost, sans-serif;
-            }
-        }
-       .ret-1{
-           .ret-icon-1{
-               i{
-                font-size: 20px;
-               }
-           }
-           .ret-text-1{
-            margin-left: 25px;
-            h3{
-                color: #181B2B;
-                font-size: 23px;
-                font-weight: 600;
-                line-height: 35px;
-                font-family: Jost, sans-serif;
-            }
-            h6{
-                color: #181B2B;
-                font-size: 14px;
-                line-height: 18px;
-                font-family: Jost, sans-serif;
-            }
-           }
-       } 
-       .quality-1{
-           .quality-icon-1{
-               i{
-                   font-size: 20px;
-               }
-           }
-           .quality-text-1{
-               margin-left: 25px;
-               h3{
-                color: #181B2B;
-                font-size: 23px;
-                font-weight: 600;
-                line-height: 35px;
-                font-family: Jost, sans-serif; 
-               }
-               h6{
-                color: #181B2B;
-                font-size: 14px;
-                line-height: 18px;
-                font-family: Jost, sans-serif; 
-               }
-           }
-       }
-    }
-  
-}
-// payment end 
+// 
+
 
 
 
@@ -1317,6 +1242,7 @@
     // mostloved start 
     .mostloved{
         width: 100%;
+        margin: 20px 0;
         .bigmost{
             width: 95%;
             padding: 0;
@@ -1342,8 +1268,7 @@
     // mostloved end 
     // ---- 
     // news start 
-    .news{
-        .top{
+    .newsLetter{
             width: 100%;
             .toptext{
                 h1{
@@ -1355,35 +1280,33 @@
                     font-weight: 400;
                     color: $gray;
                 }
+                input{
+                    width: 90%;
+                    display: block;
+                    margin-left: 25px;
+        
+                }
+                a{
+                    margin-top: 10px;
+                    width: 90%;
+                }
     
     
             }
-            input{
-                width: 90%;
-                display: block;
-                margin-left: 25px;
-    
-            }
-            a{
-                margin-top: 10px;
-                width: 90%;
-            }
+           
+        
+        .bottext{
+            margin-top: 4rem;
+            width: 100%;
+          .boxi{
+              margin-top: 20px;
+          }   
         }
-        // .bottext{
-        //     margin-top: 4rem;
-        //     width: 100%;
-        //   .boxi{
-        //       margin-top: 20px;
-        //   }   
-        // }
     }
     // news end 
     // -------- 
     // payment 2 start 
-    .payment-2{
-        width: 100%;
-        padding-left: 20px;
-    }
+    
     // ------- 
 }
 
